@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:background="@color/color_greybg" >
+
+    <TextView
+        android:id="@+id/title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d168_title_h"
+        android:background="@drawable/d168_mainbg"
+        android:gravity="center"
+        android:text="@string/label_userinfo"
+        android:textColor="@color/d168_title_font_color"
+        android:textSize="@dimen/d168_title_font_size" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title_label" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/block1"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp"
+                android:background="@color/bg_main" >
+
+                <ImageView
+                    android:id="@+id/user_icon"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/n_image_icon4" />
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/user_icon"
+                    android:layout_toRightOf="@id/user_icon"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text=""
+                    android:textColor="@color/color_black"
+                    android:textSize="24sp" />
+                <TextView
+                    android:id="@+id/user_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@id/user_icon"
+                    android:layout_below="@id/user_name"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/color_titleblack"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/block2"
+                android:layout_width="fill_parent"
+                android:layout_height="187dp"
+                android:layout_below="@id/block1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/btn_audio"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/d168_btn"
+                    android:gravity="center"
+                    android:text="@string/call168_btn_audiocall"
+                    android:textColor="@color/color_black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/btn_sms"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/btn_audio"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/d168_btn"
+                    android:gravity="center"
+                    android:text="@string/call168_btn_sms"
+                    android:textColor="@color/color_black"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/title_bg" >
+
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="@string/btn_select"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/d168_bottom_font_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inputtype"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/btn_back"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/d168_bottom_font_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

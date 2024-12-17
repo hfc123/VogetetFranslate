@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_greybg2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/styleHead"
+        style="@style/style_head"
+        android:text="@string/label_feature2" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/feature_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/style_title"
+                android:text="@string/label_call_forward_sip1" />
+
+            <View style="@style/style_title_bottom_line" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_alway" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_always_sip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_number" />
+
+                <EditText
+                    android:id="@+id/et_number_always_sip1"
+                    style="@style/style_et"
+                    android:text="" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_title_bottom_line"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_busy" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_busy_sip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_number" />
+
+                <EditText
+                    android:id="@+id/et_number_busy_sip1"
+                    style="@style/style_et"
+                    android:text="" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_title_bottom_line"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_no_answer" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_noanswer_sip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_number" />
+
+                <EditText
+                    android:id="@+id/et_number_noanswer_sip1"
+                    style="@style/style_et"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_time" />
+
+                <EditText
+                    android:id="@+id/et_time_noanswer_sip1"
+                    style="@style/style_et"
+                    android:maxLength="3"
+                    android:text="" />
+            </LinearLayout>
+            
+            <TextView
+                style="@style/style_title"
+                android:text="@string/label_call_forward_sip2" />
+
+            <View style="@style/style_title_bottom_line" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_alway" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_always_sip2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_number" />
+
+                <EditText
+                    android:id="@+id/et_number_always_sip2"
+                    style="@style/style_et"
+                    android:text="" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_title_bottom_line"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_busy" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_busy_sip2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_number" />
+
+                <EditText
+                    android:id="@+id/et_number_busy_sip2"
+                    style="@style/style_et"
+                    android:text="" />
+            </LinearLayout>
+
+            <View
+                style="@style/style_title_bottom_line"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_no_answer" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_noanswer_sip2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_number" />
+
+                <EditText
+                    android:id="@+id/et_number_noanswer_sip2"
+                    style="@style/style_et"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_time" />
+
+                <EditText
+                    android:id="@+id/et_time_noanswer_sip2"
+                    style="@style/style_et"
+                    android:maxLength="3"
+                    android:text="" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/style_title"
+                android:text="@string/label_call_waiting" />
+
+            <View style="@style/style_title_bottom_line" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_enable" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_waiting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_tone" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_tone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/style_title"
+                android:text="@string/label_dnd" />
+
+            <View style="@style/style_title_bottom_line" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_enable" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_dnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/style_title"
+                android:text="@string/label_anonymous_call" 
+                android:visibility="gone"/>
+
+            <View style="@style/style_title_bottom_line"
+                android:visibility="gone" />
+
+            <LinearLayout style="@style/style_linear_layout"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_enable" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_anonymous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/style_title"
+                android:text="@string/label_auto_redial" />
+
+            <View style="@style/style_title_bottom_line" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_enable" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_autoredial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_times" />
+
+                <EditText
+                    android:id="@+id/et_time_redial"
+                    style="@style/style_et"
+                    android:maxLength="2"
+                    android:inputType="number"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_interval" />
+
+                <EditText
+                    android:id="@+id/et_interval"
+                    style="@style/style_et"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:text="" />
+            </LinearLayout>
+             <TextView
+                style="@style/style_title"
+                android:text="@string/label_auto_answer" />
+
+            <View style="@style/style_title_bottom_line" />
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_enable" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb_autoanswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_answer_after" />
+
+                <EditText
+                    android:id="@+id/et_answer_after_time"
+                    style="@style/style_et"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/press_apply" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/style_bottom_block" >
+
+        <TextView
+            android:id="@+id/tv_left_btn"
+            style="@style/style_bottom_left"
+            android:text="@string/bn_soft_left_detele" />
+
+        <TextView
+            android:id="@+id/tv_inputtype"
+            style="@style/style_bottom_middle"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_right_btn"
+            style="@style/style_bottom_right"
+            android:text="@string/bn_soft_right_back" />
+    </LinearLayout>
+
+</LinearLayout>

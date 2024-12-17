@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="callsessionTimerMode">
+        <item>非稼働中</item>
+		<item>オプション</item>
+		<item>必須</item>
+		<item>常に</item>
+    </string-array>
+    <string-array name="callsessionRefreshMode">
+        <item>不使用</item>
+		<item>適合性</item>
+    </string-array>
+    <string-array name="accoutLabelList">
+        <item>SIP1</item>
+        <item>SIP2</item>
+    </string-array>
+    <string-array name="codec">
+        <item>PCMA</item>
+        <item>PCMU</item>
+        <item>G729</item>
+        <item>GSM</item>
+        <item>ILIBC</item>
+        <item>G722</item>
+        <item>OPUS</item>
+        <item>Speex-WB</item>
+    </string-array>
+    <string-array name="ip_mode">
+        <item>DHCP</item>
+		<item>静的</item>
+    </string-array>
+    <string-array name="brightness">
+        <item>低</item>
+		<item>中</item>
+		<item>高</item>
+    </string-array>
+
+    <integer-array name="brightness_level">
+        <item>20</item>
+        <item>100</item>
+        <item>220</item>
+    </integer-array>
+
+    <string-array name="wifi_frequency">
+        <item>2.4G&amp;5G</item>
+        <item>2.4G</item>
+        <item>5G</item>
+    </string-array>
+    <string-array name="timezone">
+        <item>パシフィック/ミッドウェー</item>
+		<item>パシフィック/ホノルル</item>
+		<item>アメリカ/アンカレッジ</item>
+		<item>アメリカ/ロスアンジェルス</item>
+		<item>アメリカ/ティファナ</item>
+		<item>アメリカ/フェニックス</item>
+		<item>アメリカ/チワワ</item>
+		<item>アメリカ/デンバー</item>
+		<item>アメリカ/コスタリカ</item>
+		<item>アメリカ/シカゴ</item>
+		<item>アメリカ/メキシコシティ</item>
+		<item>アメリカ/レジーナ</item>
+		<item>アメリカ/ボゴタ</item>
+		<item>アメリカ/ニューヨーク</item>
+		<item>アメリカ/カラカス</item>
+		<item>アメリカ/バルバドス</item>
+		<item>アメリカ/ハリファックス</item>
+		<item>アメリカ/マナウス</item>
+		<item>アメリカ/セントジョンズ</item>
+		<item>アメリカ/サンティアゴ</item>
+		<item>アメリカ/アルゼンチン/ブエノスアイレス</item>
+		<item>アメリカ/ゴダブ</item>
+		<item>アメリカ/サンパウロ</item>
+		<item>アメリカ/モンテビデオ</item>
+		<item>大西洋/南ジョージア州</item>
+		<item>大西洋/アゾレス諸島</item>
+		<item>大西洋/ベルデ岬</item>
+		<item>アフリカ/カサブランカ</item>
+		<item>ヨーロッパ/ロンドン</item>
+		<item>ヨーロッパ/アムステルダム</item>
+		<item>ヨーロッパ/ベオグラード</item>
+		<item>ヨーロッパ/ブリュッセル</item>
+		<item>ヨーロッパ/サラエボ</item>
+		<item>アフリカ/ブラザビル</item>
+		<item>アフリカ/ウィンドフック</item>
+		<item>ヨーロッパ/アテネ</item>
+		<item>アジア/ベイルート</item>
+		<item>アフリカ/カイロ</item>
+		<item>ヨーロッパ/ヘルシンキ</item>
+		<item>アジア/エルサレム</item>
+		<item>アフリカ/ハラール</item>
+		<item>アジア/アンマン</item>
+		<item>ヨーロッパ/ミンスク</item>
+		<item>アジア/バグダッド</item>
+		<item>アジア/クウェート</item>
+		<item>アフリカ/ナイロビ</item>
+		<item>アジア/テヘラン</item>
+		<item>ヨーロッパ/モスクワ</item>
+		<item>アジア/バクー</item>
+		<item>アジア/トビリシ</item>
+		<item>アジア/エレバン</item>
+		<item>アジア/カブール</item>
+		<item>アジア/カラチ</item>
+		<item>アジア/オラル</item>
+		<item>アジア/カルカッタ</item>
+		<item>アジア/コロンボ</item>
+		<item>アジア/カトマンズ</item>
+		<item>アジア/エカテリンブルグ</item>
+		<item>アジア/アルマティ</item>
+		<item>アジア/ラングーン</item>
+		<item>アジア/バンコク</item>
+		<item>アジア/ジャカルタ</item>
+		<item>アジア/クラスノヤルスク</item>
+		<item>アジア/上海</item>
+		<item>アジア/香港</item>
+		<item>アジア/クアラルンプール</item>
+		<item>オーストラリア/パース</item>
+		<item>アジア/台北</item>
+		<item>アジア/イルクーツク</item>
+		<item>アジア/ソウル</item>
+		<item>アジア/東京</item>
+		<item>オーストラリア/ダーウィン</item>
+		<item>アジア/ヤクーツク</item>
+		<item>オーストラリア/ブリスベン</item>
+		<item>パシフィック/グアム</item>
+		<item>オーストラリア/アデレード</item>
+		<item>オーストラリア/ホバート</item>
+		<item>オーストラリア/シドニー</item>
+		<item>アジア/ウラジオストク</item>
+		<item>太平洋/マジュロ</item>
+		<item>アジア/マガダン</item>
+		<item>太平洋/オークランド</item>
+		<item>太平洋/フィジー</item>
+		<item>太平洋/トンガタプ</item>
+    </string-array>
+    <string-array name="timezoneaddress">
+        <item>-11 ミッドウェー島</item>
+		<item>-10 ハワイ</item>
+		<item>-09 アラスカ</item>
+		<item>-08 太平洋時間</item>
+		<item>-08 ティファナ</item>
+		<item>-07 アリゾナ州</item>
+		<item>-07 チワワ</item>
+		<item>-07 山岳時間</item>
+		<item>-06 中米</item>
+		<item>-06 中部時間</item>
+		<item>-06 メキシコ(メキシコシティ、アカプルコ)</item>
+		<item>-06 サスカチュワン州</item>
+		<item>-05 ボゴタ</item>
+		<item>-05 東部時間</item>
+		<item>-4:30 ベネズエラ</item>
+		<item>-04 大西洋時間(バルバドス)</item>
+		<item>-04 大西洋時間(カナダ)</item>
+		<item>-04 マナウス</item>
+		<item>-3:30 ニューファンドランド</item>
+		<item>-03 サンティアゴ</item>
+		<item>-03 ブエノスアイレス</item>
+		<item>-03 グリーンランド</item>
+		<item>-02 ブラジリア</item>
+		<item>-02 モンテビデオ</item>
+		<item>-02 中緯度帯</item>
+		<item>-01 アゾレス諸島</item>
+		<item>-01 カーボベルデ諸島</item>
+		<item>0 カサブランカ</item>
+		<item>0 ロンドン、ダブリン</item>
+		<item>+1 アムステルダム、ベルリン</item>
+		<item>+1 ベオグラード</item>
+		<item>+1 ブリュッセル</item>
+		<item>+1 サラエボ</item>
+		<item>+1 西アフリカ時間</item>
+		<item>+2 ウィントフック</item>
+		<item>+2 アテネ、イスタンブール</item>
+		<item>+2 ベイルート、レバノン</item>
+		<item>+2 カイロ</item>
+		<item>+2 ヘルシンキ</item>
+		<item>+2 エルサレム</item>
+		<item>+2 ハラレ</item>
+		<item>+3 アンマン、ヨルダン</item>
+		<item>+3 ミンスク</item>
+		<item>+3 バグダッド</item>
+		<item>+3 クウェート</item>
+		<item>+3 ナイロビ</item>
+		<item>+3:30 テヘラン</item>
+		<item>+4 モスクワ</item>
+		<item>+4 バクー</item>
+		<item>+4 トビリシ</item>
+		<item>+4 エレバン</item>
+		<item>+4:30 カブール</item>
+		<item>+5 イスラマバード、カラチ</item>
+		<item>+5 ウラルスク</item>
+		<item>+5:30 コルカタ</item>
+		<item>+5:30 スリランカ</item>
+		<item>+5:45 カトマンズ</item>
+		<item>+6 エカテリンブルク</item>
+		<item>+6 アスタナ</item>
+		<item>+6:30 ヤンゴン</item>
+		<item>+7 バンコク</item>
+		<item>+7 ジャカルタ</item>
+		<item>+8 クラスノヤルスク</item>
+		<item>+8 北京</item>
+		<item>+8 香港</item>
+		<item>+8 クアラルンプール</item>
+		<item>+8 パース</item>
+		<item>+8 台北</item>
+		<item>+9 イルクーツク</item>
+		<item>+9 ソウル</item>
+		<item>+9 東京、大阪</item>
+		<item>+9:30 オーストラリア(ダーウィン)</item>
+		<item>+10 ヤクーツク</item>
+		<item>+10 ブリスベン</item>
+		<item>+10 グアム</item>
+		<item>+10:30 アデレード</item>
+		<item>+11 ホバート</item>
+		<item>+11 シドニー、キャンベラ</item>
+		<item>+11 ウラジオストク</item>
+		<item>+12 マーシャル諸島</item>
+		<item>+12 マガダン</item>
+		<item>+13 オークランド</item>
+		<item>+13 フィジー</item>
+		<item>+13 トンガ</item>
+    </string-array>
+    <string-array name="backlight">
+        <item>15s</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>2 min</item>
+        <item>5 min</item>
+    </string-array>
+
+    <integer-array name="backlight_time">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+    </integer-array>
+
+    <string-array name="languageList">
+        <item>English</item>
+        <item>简体中文</item>
+        <item>Pусский</item>
+        <item>In Italiano</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Français</item>       
+        <item>German</item>
+        <item>Netherlands</item>
+        <item>Turkish</item>
+        <item>Polish</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>無し</item>
+		<item>WEP</item>
+		<item>WPA/WPA2 PSK</item>
+		<item>802.1x EAP</item>
+    </string-array>
+    <string-array name="eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <!--
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        -->
+    </string-array>
+    <string-array name="eap_phrase2">
+        <item>無し</item>
+		<item>MSCHAPV2</item>
+		<item>GTC</item>
+    </string-array>
+    <string-array name="eap_phrase2_all">
+        <item>無し</item>
+		<item>MSCHAPV2</item>
+		<item>GTC</item>
+		<item>PAP</item>
+		<item>MSCHAP</item>
+    </string-array>
+    <string-array name="wpai_psk_type">
+        <item>WPAI PSK ASCII</item>
+		<item>WPAI PSK 16進数</item>
+    </string-array>
+	<string-array name="date_format">
+		<item>1月 1日(月)</item>
+		<item>1日 1月(月)</item>
+		<item>月, 1-1月</item>
+		<item>月, 1月-1</item>
+		<item>DD MM YYYY</item>
+		<item>MM DD YYYY</item>
+		<item>YYYY MM DD 木曜日</item>
+	</string-array>
+    <string-array name="date_separator">
+        <item>/</item>
+		<item>-</item>
+		<item>.</item>
+		<item>スペース</item>
+    </string-array>
+    <string-array name="log_mode">
+        <item>無効にする</item>
+		<item>正常なログ</item>
+		<item>システムログ</item>
+    </string-array>
+    <string-array name="log_level">
+        <item>エラー</item>
+		<item>警告</item>
+		<item>情報</item>
+		<item>デバッグ</item>
+		<item>詳細</item>
+    </string-array>
+
+</resources>

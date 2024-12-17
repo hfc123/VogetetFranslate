@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_grey"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/styleHead"
+        style="@style/style_head"
+        android:background="@color/d168_tab_headercolor"
+        android:text="@string/label_system_tools" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/d168_contact_sub_back" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/update"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/d168_contact_menu_item_h"
+                android:layout_marginTop="@dimen/contact_item_mt"
+                android:background="@color/d168_contact_item_back"
+                android:focusable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="@dimen/d168_contact_menu_item_h"
+                    android:focusable="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="@string/btn_update"
+                    android:textColor="@color/black333"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_height="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_gravity="right|center"
+                    android:background="@drawable/wifi_more" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/applog"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/d168_contact_menu_item_h"
+                android:layout_marginTop="@dimen/contact_item_mt"
+                android:background="@color/d168_contact_item_back"
+                android:focusable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="@dimen/d168_contact_menu_item_h"
+                    android:focusable="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="@string/btn_log"
+                    android:textColor="@color/black333"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_height="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_gravity="right|center"
+                    android:background="@drawable/wifi_more" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/iperf"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/d168_contact_menu_item_h"
+                android:layout_marginTop="@dimen/contact_item_mt"
+                android:background="@color/d168_contact_item_back"
+                android:focusable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="@dimen/d168_contact_menu_item_h"
+                    android:focusable="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="@string/btn_iperf"
+                    android:textColor="@color/black333"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_height="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_gravity="right|center"
+                    android:background="@drawable/wifi_more" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/wifimonitoring"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/d168_contact_menu_item_h"
+                android:layout_marginTop="@dimen/contact_item_mt"
+                android:background="@color/d168_contact_item_back"
+                android:focusable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="@dimen/d168_contact_menu_item_h"
+                    android:focusable="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="@string/wifiintensity"
+                    android:textColor="@color/black333"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_height="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_gravity="right|center"
+                    android:background="@drawable/wifi_more" />
+            </LinearLayout>
+            <!-- WPS-Push-Button -->
+
+            <LinearLayout
+                android:id="@+id/layout_wps_push"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/d168_contact_menu_item_h"
+                android:layout_marginTop="@dimen/contact_item_mt"
+                android:background="@color/d168_contact_item_back"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="@dimen/d168_contact_menu_item_h"
+                    android:focusable="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label_set_set"
+                    android:textColor="@color/black333"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_height="@dimen/d168_contact_menu_item_more_w"
+                    android:layout_gravity="right|center"
+                    android:background="@drawable/wifi_more" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/reset"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/d168_contact_menu_item_h"
+                android:layout_marginTop="@dimen/contact_item_mt"
+                android:background="@color/d168_contact_item_back"
+                android:focusable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/d168_contact_menu_item_h"
+                    android:focusable="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="@string/btn_reset"
+                    android:textColor="@color/black333"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/style_bottom_block" >
+
+        <TextView
+            android:id="@+id/left_btn"
+            style="@style/style_bottom_left"
+            android:text="@string/bn_soft_left_select" />
+
+        <TextView
+            android:id="@+id/right_btn"
+            style="@style/style_bottom_right"
+            android:text="@string/bn_soft_right_back" />
+    </LinearLayout>
+
+</LinearLayout>

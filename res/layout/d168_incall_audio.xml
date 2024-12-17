@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg_3" >
+
+    <ImageView
+        android:id="@+id/login_status"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center|left"
+        android:layout_margin="8dp"
+        android:background="@drawable/result_red"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/local_user"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/login_status"
+        android:gravity="center|left"
+        android:maxWidth="120dp"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/color_white"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/curr_time"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="3dp"
+        android:gravity="right|center"
+        android:text=""
+        android:textColor="@color/color_white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/top_battery"
+        android:layout_width="30dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toLeftOf="@id/curr_time"
+        android:background="@drawable/battery3" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/light"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/top_battery"
+        android:background="@drawable/light"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/signal"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center|left"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@id/light"
+        android:background="@drawable/wifi_4_new"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/remote_name"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/curr_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="@color/color_white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/remote_num"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remote_name"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="@color/color_white"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/screen_audio_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/remote_num"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textColor="@color/color_white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/btn_left"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:text="@string/d168_audio_option_hold"
+        android:textColor="@color/color_white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/audio_hangup"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center|right"
+        android:paddingRight="5dp"
+        android:text="@string/d168_audio_option_conf"
+        android:textColor="@color/color_white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/state_block"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/screen_audio_duration"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/speaker"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/speaker_on"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/hold_call"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/hold_call"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/mute"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/mute_on"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/transfer"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/transfer_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/digst"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/state_block"
+        android:layout_margin="10dp"
+        android:background="@color/color_transparent"
+        android:gravity="center|left"
+        android:singleLine="true"
+        android:textColor="@color/color_white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

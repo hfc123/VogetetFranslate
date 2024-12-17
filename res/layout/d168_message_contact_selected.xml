@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_greybg" >
+
+    <TextView
+        android:id="@+id/calls_label"
+        style="@style/style_head"
+        android:text="@string/message_contact_select" />
+
+    <ListView
+        android:id="@+id/list_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_block"
+        android:layout_below="@+id/calls_label" />
+
+    <LinearLayout
+        android:id="@+id/bottom_block"
+        style="@style/style_bottom_block"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/select"
+            style="@style/style_bottom_left" />
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/style_bottom_right"
+            android:text="@string/btn_back" />
+    </LinearLayout>
+
+</RelativeLayout>

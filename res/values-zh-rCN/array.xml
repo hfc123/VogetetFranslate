@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="accoutLabelList">
+        <item>账号1</item>
+        <item>账号2</item>
+    </string-array>
+    
+    <string-array name="callsessionTimerMode">
+        <item>Inactive</item>
+        <item>Optional</item>
+        <item>Required</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="callsessionRefreshMode">
+        <item>Invite</item>
+        <item>Update</item>
+    </string-array>
+    <string-array name="codec">
+        <item>PCMA</item>
+        <item>PCMU</item>
+        <item>G729</item>
+        <item>GSM</item>
+        <item>ILIBC</item>
+        <item>G722</item>
+        <item>OPUS</item>
+        <item>Speex-WB</item>
+    </string-array>
+    
+    <string-array name="audio_codec">
+        <item>speex 16 kHz</item>
+        <item>speex 8 kHz</item>
+        <item>speex 32 kHz</item>
+        <item>GSM 8kHz</item>
+        <item>PCMU 8 kHz</item>
+        <item>PCMA 8 kHz</item>
+        <item>G722 16 kHz</item>
+        <item>AMR 8 kHz</item>
+        <item>AMR-WB 16 kHz</item>
+        <item>ISAC 16 kHz</item>
+        <item>ILBC 8 kHz</item>
+        <item>SILK 8 kHz</item>
+        <item>SILK 12 kHz</item>
+        <item>SILK 16 kHz</item>
+        <item>SILK 24 kHz</item>
+    </string-array>
+    <string-array name="ip_mode">
+        <item>DHCP</item>
+        <item>static</item>
+    </string-array>
+    <string-array name="brightness">
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+    </string-array>
+
+    <integer-array name="brightness_level">
+        <item>130</item>
+        <item>180</item>
+        <item>230</item>
+    </integer-array>
+
+    <string-array name="timezone">
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Tijuana</item>
+        <item>America/Phoenix</item>
+        <item>America/Chihuahua</item>
+        <item>America/Denver</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Chicago</item>
+        <item>America/Mexico_City</item>
+        <item>America/Regina</item>
+        <item>America/Bogota</item>
+        <item>America/New_York</item>
+        <item>America/Caracas</item>
+        <item>America/Barbados</item>
+        <item>America/Halifax</item>
+        <item>America/Manaus</item>
+        <item>America/St_Johns</item>
+        <item>America/Santiago</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Godthab</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Montevideo</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Azores</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Sarajevo</item>
+        <item>Africa/Brazzaville</item>
+        <item>Africa/Windhoek</item>
+        <item>Europe/Athens</item>
+        <item>Asia/Beirut</item>
+        <item>Africa/Cairo</item>
+        <item>Europe/Helsinki</item>
+        <item>Asia/Jerusalem</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Minsk</item>
+        <item>Asia/Baghdad</item>
+        <item>Asia/Kuwait</item>
+        <item>Africa/Nairobi</item>
+        <item>Asia/Tehran</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Jakarta</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Australia/Perth</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Tokyo</item>
+        <item>Australia/Darwin</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Brisbane</item>
+        <item>Pacific/Guam</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Sydney</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Majuro</item>
+        <item>Asia/Magadan</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+    </string-array>
+    <string-array name="timezoneaddress">
+        <item>-11 Midway Island</item>
+        <item>-10 Hawaii</item>
+        <item>-09 Alaska</item>
+        <item>-08 Pacific Time</item>
+        <item>-08 Tijuana</item>
+        <item>-07 Arizona</item>
+        <item>-07 Chihuahua</item>
+        <item>-07 Mountain Time</item>
+        <item>-06 Central America</item>
+        <item>-06 Central Time</item>
+        <item>-06 Mexico(Mexico City,Acapulco)</item>
+        <item>-06 Saskatchewan</item>
+        <item>-05 Bogota</item>
+        <item>-05 Eastern Time</item>
+        <item>-04:30 Venezuela</item>
+        <item>-04 Atlantic Time(Barbados)</item>
+        <item>-04 Atlantic Time(Canada)</item>
+        <item>-04 Manaus</item>
+        <item>-03:30 Newfoundland</item>
+        <item>-03 Santiago</item>
+        <item>-03 Buenos Aires</item>
+        <item>-03 Greenland</item>
+        <item>-02 Brasilia</item>
+        <item>-02 Montevideo</item>
+        <item>-02 Mid-Atlantic</item>
+        <item>-01 Azores</item>
+        <item>-01 Cape Verde Islands</item>
+        <item>0 Casablanca</item>
+        <item>0 London,Dublin</item>
+        <item>+1 Amsterdam,Berlin</item>
+        <item>+1 Belgrade</item>
+        <item>+1 Brussels</item>
+        <item>+1 Sarajevo</item>
+        <item>+1 W.Africa Time</item>
+        <item>+2 Windhoek</item>
+        <item>+2 Athens,Istanbul</item>
+        <item>+2 Beirut,Lebanon</item>
+        <item>+2 Cairo</item>
+        <item>+2 Helsinki</item>
+        <item>+2 Jerusalem</item>
+        <item>+2 Harare</item>
+        <item>+3 Amman,Jordan</item>
+        <item>+3 Minsk</item>
+        <item>+3 Baghdad</item>
+        <item>+3 Kuwait</item>
+        <item>+3 Nairobi</item>
+        <item>+3:30 Tehran</item>
+        <item>+4 Moscow</item>
+        <item>+4 Baku</item>
+        <item>+4 Tbilisi</item>
+        <item>+4 Yerevan</item>
+        <item>+4:30 Kabul</item>
+        <item>+5 Islamabad,Karachi</item>
+        <item>+5 Ural\'sk</item>
+        <item>+5:30 Kolkata</item>
+        <item>+5:30 SriLanka</item>
+        <item>+5:45 Kathmandu</item>
+        <item>+6 Yekaterinburg</item>
+        <item>+6 Astana</item>
+        <item>+6:30 Yangon</item>
+        <item>+7 Bangkok</item>
+        <item>+7 Jakarta</item>
+        <item>+8 Krasnoyarsk</item>
+        <item>+8 Beijing</item>
+        <item>+8 Hong Kong</item>
+        <item>+8 Kuala Lumpur</item>
+        <item>+8 Perth</item>
+        <item>+8 Taipei</item>
+        <item>+9 Irkutsk</item>
+        <item>+9 Seoul</item>
+        <item>+9 Tokyo,Osaka</item>
+        <item>+9:30 Australia(Darwin)</item>
+        <item>+10 Yakutsk</item>
+        <item>+10 Brisbane</item>
+        <item>+10 Guam</item>
+        <item>+10:30 Adelaide</item>
+        <item>+11 Hobart</item>
+        <item>+11 Sydney,Canberra</item>
+        <item>+11 Vladivostok</item>
+        <item>+12 Marshall Islands</item>
+        <item>+12 Magadan</item>
+        <item>+13 Auckland</item>
+        <item>+13 Fiji</item>
+        <item>+13 Tonga</item>
+    </string-array>
+    <string-array name="backlight">
+        <item>15s</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>2 min</item>
+        <item>5 min</item>
+    </string-array>
+
+    <integer-array name="backlight_time">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+    </integer-array>
+
+    <string-array name="languageList">
+        <item>English</item>
+        <item>简体中文</item>
+        <item>Pусский</item>
+        <item>In Italiano</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Français</item>      
+        <item>German</item>
+        <item>Netherlands</item>
+        <item>Turkish</item>
+        <item>Polish</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>NONE</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <!--
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        -->
+    </string-array>
+    <string-array name="eap_phrase2">
+        <item>none</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="eap_phrase2_all">
+        <item>none</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+    </string-array>
+    <string-array name="wpai_psk_type">
+        <item>WPAI PSK ASCII</item>
+        <item>WPAI PSK hexadecimal</item>
+    </string-array>
+    <string-array name="date_format">
+        <item>1 Jan, Mon</item>
+        <item>Jan 1, Mon</item>
+        <item>Mon, 1 Jan</item>
+        <item>Mon, Jan 1</item>
+        <item>DD MM YYYY</item>
+        <item>MM DD YYYY</item>
+        <item>YYYY MM DD</item>
+    </string-array>
+    <string-array name="date_separator">
+        <item>/</item>
+        <item>-</item>
+        <item>.</item>
+        <item>space</item>
+    </string-array>
+
+</resources>

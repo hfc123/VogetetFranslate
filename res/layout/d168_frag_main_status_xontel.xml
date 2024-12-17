@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="65dp" >
+
+    <!-- android:background="@color/d168_memu_back" -->
+
+    <TextView
+        android:id="@+id/label_no_service"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="@string/label_no_service"
+        android:textColor="@color/color_white"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/label_network"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="@string/label_network_tip"
+        android:textColor="@color/color_white"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp" >
+
+            <!--
+            <LinearLayout
+                android:id="@+id/mute_block"
+                android:layout_width="250dp"
+                android:layout_height="26dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/mute_a" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:gravity="bottom"
+                    android:text="@string/label_mute"
+                    android:textColor="@color/color_white"
+                    android:textSize="20sp" />
+            </LinearLayout> -->
+
+            <LinearLayout
+                android:id="@+id/dnd_block"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/dnd" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:gravity="bottom"
+                    android:text="@string/label_dnd"
+                    android:textColor="@color/color_white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/change_block"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/change_icon"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/call_missed" />
+
+            <TextView
+                android:id="@+id/change_tip_1"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginEnd="4dp"
+                android:gravity="bottom"
+                android:text="10"
+                android:textColor="@color/color_white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/change_tip_2"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:gravity="bottom"
+                android:text="@string/d168_tip_misscall"
+                android:textColor="@color/color_white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

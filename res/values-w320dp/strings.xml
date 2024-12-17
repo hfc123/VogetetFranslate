@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_proxy_port2">*Port:</string>
+    <string name="vpn_type_sstp">sstp</string>
+    <string name="applyok">OKを押して適用</string>
+    <string name="ringsenable">Rings enable</string>
+    <string name="reconnectdisable">Too many reconnection attempts. Please confirm that the server is functioning properly and then manually connect</string>
+    <string name="reconnect">reconnect</string>
+    <string name="sstp">sstp</string>
+    <string name="callinphone">call in phone</string>
+    <string name="call_in_bluetooth">call in bluetooth</string>
+    <string name="speakercall">call in speaker</string>
+    <string name="wifiintensity">wifi meter</string>
+</resources>

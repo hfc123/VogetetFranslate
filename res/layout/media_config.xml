@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wihtefff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/styleHead"
+        style="@style/style_head"
+        android:text="@string/title_media" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/style_title3"
+                    style="@style/style_title"
+                    android:text="@string/d168_account_audio_codec" />
+
+                <View
+                    style="@style/style_title_bottom_line"
+                    android:layout_below="@+id/style_title3" />
+            </RelativeLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/d168_account_choice_1" />
+
+                <TextView
+                    android:id="@+id/codec_1"
+                    style="@style/style_et_guide" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/d168_account_choice_2" />
+
+                <TextView
+                    android:id="@+id/codec_2"
+                    style="@style/style_et_guide" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/d168_account_choice_3" />
+
+                <TextView
+                    android:id="@+id/codec_3"
+                    style="@style/style_et_guide" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/d168_account_choice_4" />
+
+                <TextView
+                    android:id="@+id/codec_4"
+                    style="@style/style_et_guide" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/d168_account_choice_5" />
+
+                <TextView
+                    android:id="@+id/codec_5"
+                    style="@style/style_et_guide" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/d168_account_choice_6" />
+
+                <TextView
+                    android:id="@+id/codec_6"
+                    style="@style/style_et_guide" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/press_apply" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/style_bottom_block"
+        android:weightSum="3" >
+
+        <TextView
+            android:id="@+id/left_btn"
+            style="@style/style_bottom_left"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_weight="1"
+            android:text="@string/bn_soft_left_detele" />
+
+        <TextView
+            android:id="@+id/input_type"
+            style="@style/style_bottom_middle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_weight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/right_btn"
+            style="@style/style_bottom_right"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_weight="1"
+            android:text="@string/bn_soft_right_back" />
+    </LinearLayout>
+
+</LinearLayout>

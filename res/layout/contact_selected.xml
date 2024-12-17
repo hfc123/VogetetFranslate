@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white" >
+
+    <TextView
+        android:id="@+id/contact_label"
+        style="@style/style_head"
+        android:text="@string/select_contacts" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_block"
+        android:layout_below="@+id/contact_label" />
+
+    <LinearLayout
+        android:id="@+id/bottom_block"
+        style="@style/style_bottom_block"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/select"
+            style="@style/style_bottom_left"
+            android:text="@string/d168_btn_select" />
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/style_bottom_right"
+            android:text="@string/btn_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/color_white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/call_title"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/d168_tab_headerselect"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/d168_btn_select"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_greybg" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:focusable="true"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/color_text1"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_greybg" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:focusable="true"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/color_text1"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_greybg" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:focusable="true"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:text=""
+            android:textColor="@color/color_text1"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_greybg" />
+    </LinearLayout>
+
+</RelativeLayout>

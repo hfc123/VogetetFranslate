@@ -1,0 +1,277 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wihtefff" >
+
+    <FrameLayout
+        android:id="@+id/top_block"
+        style="@style/style_head" >
+
+        <TextView
+            android:id="@+id/contact_label"
+            style="@style/style_head"
+            android:text="@string/label_blacklists" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="@dimen/d168_contact_menu_rightmargin"
+            android:src="@drawable/top_left" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="@dimen/d168_contact_menu_rightmargin"
+            android:src="@drawable/top_right" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:background="@color/d168_contact_bottom" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="120dp"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|left"
+        android:paddingLeft="@dimen/d168_contact_menu_rightmargin"
+        android:text="@string/d168_btn_options"
+        android:textColor="@color/color_white"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="60dp"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="120dp"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center|right"
+        android:paddingRight="@dimen/d168_contact_menu_rightmargin"
+        android:text="@string/btn_back"
+        android:textColor="@color/color_white"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/black_search"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/top_block"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/d168_contact_menu_leftmargin"
+        android:layout_marginRight="@dimen/d168_contact_menu_rightmargin"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/d168_contact_editext_bg"
+        android:drawableRight="@drawable/resolve_edt"
+        android:paddingRight="13dp"
+        android:singleLine="true"
+        android:textColor="@color/gray666"
+        android:textSize="21sp" />
+
+    <ListView
+        android:id="@+id/contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/back"
+        android:layout_below="@id/black_search"
+        android:background="@color/wihtefff"
+         android:divider="@drawable/listview_divider"
+        android:dividerHeight="0.6dp"
+        android:focusable="true" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/option_blackcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/select"
+        android:background="@color/d168_color_greybg_tran"
+        android:gravity="bottom"
+        android:padding="2dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/option_add"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:focusable="true"
+                android:paddingLeft="@dimen/contact_newlist_leftright"
+                android:paddingRight="@dimen/contact_newlist_leftright" >
+
+                <ImageView
+                    android:id="@+id/img_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/add" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_add"
+                    android:gravity="center|left"
+                    android:text="@string/d168_btn_add"
+                    android:textColor="@color/gray666"
+                    android:textSize="19sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_greybg" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/option_edit"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:focusable="true"
+                android:paddingLeft="@dimen/contact_newlist_leftright"
+                android:paddingRight="@dimen/contact_newlist_leftright" >
+
+                <ImageView
+                    android:id="@+id/img_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/edit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_edit"
+                    android:gravity="center|left"
+                    android:text="@string/d168_btn_edit"
+                    android:textColor="@color/gray666"
+                    android:textSize="19sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_greybg" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/option_delete"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:focusable="true"
+                android:paddingLeft="@dimen/contact_newlist_leftright"
+                android:paddingRight="@dimen/contact_newlist_leftright" >
+
+                <ImageView
+                    android:id="@+id/img_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/delete" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_delete"
+                    android:gravity="center|left"
+                    android:text="@string/d168_btn_delete"
+                    android:textColor="@color/gray666"
+                    android:textSize="19sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_greybg" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/option_delete_all"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:focusable="true"
+                android:paddingLeft="@dimen/contact_newlist_leftright"
+                android:paddingRight="@dimen/contact_newlist_leftright" >
+
+                <ImageView
+                    android:id="@+id/img_delete_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/deleteall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_delete_all"
+                    android:gravity="center|left"
+                    android:text="@string/d168_btn_delete_all"
+                    android:textColor="@color/gray666"
+                    android:textSize="19sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_greybg" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/option_move_to_contact"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:focusable="true"
+                android:paddingLeft="@dimen/contact_newlist_leftright"
+                android:paddingRight="@dimen/contact_newlist_leftright" >
+
+                <ImageView
+                    android:id="@+id/img_movetocontact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/mtcontact" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_movetocontact"
+                    android:gravity="center|left"
+                    android:text="@string/d168_btn_movetocontact"
+                    android:textColor="@color/gray666"
+                    android:textSize="19sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_greybg" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

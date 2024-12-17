@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/call_bg" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom|left"
+        android:paddingLeft="13dp"
+        android:text="@string/d168_audio_conf_title"
+        android:textColor="@color/color_white"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="23dp"
+        android:gravity="bottom|left"
+        android:paddingLeft="13dp"
+        android:text="@string/d168_audio_forward_Inputnum"
+        android:textColor="@color/wihtefff"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/conf_num"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/label1"
+        android:layout_margin="13dp"
+        android:textColor="@color/gray666"
+        android:background="@drawable/d168_call_editext_bg"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conf_num"
+        android:gravity="bottom|left"
+        android:paddingLeft="13dp"
+        android:text="@string/d168_audio_transfer_select_call"
+        android:textColor="@color/wihtefff"
+        android:textSize="19sp"/>
+
+    <TextView
+        android:id="@+id/exist_call"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/label2"
+        android:layout_margin="13dp"
+        android:focusable="true"
+        android:background="@drawable/textview_bolder"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|left"
+        android:paddingLeft="13dp"
+        android:text="@string/d168_audio_option_conf2"
+        android:textColor="@color/color_white"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center|right"
+        android:paddingRight="13dp"
+        android:text="@string/d168_audio_forward_btn_right"
+        android:textColor="@color/color_white"
+        android:textSize="21sp" />
+
+</RelativeLayout>

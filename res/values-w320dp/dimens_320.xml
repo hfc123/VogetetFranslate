@@ -1,0 +1,27 @@
+<resources>
+
+    <!--
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    -->
+    <!--此配置中的数据是为:1-->
+
+	<!-- 标题大小数据 -->
+	<!--标题栏高度  -->
+    <dimen name="title_h">50dp</dimen>
+    <!--返回箭头高度  -->
+    <dimen name="back_h">20dp</dimen>
+    <!--返回箭头宽度  -->
+    <dimen name="back_w">55dp</dimen>
+    <!--返回箭头外边距 -->
+    <dimen name="back_margin">3dp</dimen>
+    <!--标题栏高度  -->
+    <dimen name="title_fontsize">20sp</dimen>
+    
+    <dimen name="setting_label_w">100dp</dimen>
+	<dimen name="d168_title_h">44dp</dimen>
+	<dimen name="d168_title_font_size">28sp</dimen>
+	<dimen name="d168_bottom_h">44dp</dimen>
+	<dimen name="d168_bottom_font_size">24sp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dtmf_dialer_display_text">#FFFFFF</color> <!-- white -->
+
+    <!-- Used when the End Call button is active -->
+    <drawable name="end_call_active_state">#f22121</drawable>
+
+    <!-- Used when the End Call button is pressed -->
+    <drawable name="end_call_pressed_state">#008aa1</drawable>
+    <drawable name="end_call_select_state">#8B1E07</drawable>
+
+    <!-- Used when the End Call button is disabled -->
+    <drawable name="end_call_disabled_state">#303030</drawable>
+    <color name="end_call_disabled_state">#303030</color>
+    <!-- Used with some smaller texts in manage conference screen. -->
+    <color name="manage_conference_secondary_text_color">#888888</color>
+    <color name="conference_call_manager_icon_color">#999999</color>
+</resources>

@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:background="@color/wihtefff" >
+
+    <TextView
+        android:id="@+id/title_label"
+        style="@style/style_head"
+        android:text="@string/voice_mail" />
+
+    <View
+        android:id="@+id/view_top"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/title_label"
+        android:background="@color/d168_contact_sub_back" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/style_bottom_block"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/left_btn"
+            style="@style/style_bottom_left"
+            android:text="@string/bn_soft_left_detele" />
+
+        <TextView
+            android:id="@+id/inputtype"
+            style="@style/style_bottom_middle"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/right_btn"
+            style="@style/style_bottom_right"
+            android:text="@string/bn_soft_right_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mode_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_above="@id/bottom" >
+
+        <include layout="@layout/press_apply" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/mode_tips"
+        android:layout_below="@id/view_top"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/main_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingTop="5dp" >
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/voicemail_label" />
+
+                <TextView
+                    android:id="@+id/msg_count"
+                    style="@style/style_tv2"
+                    android:text="[ 2 / 4 ]" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/voice_mail_number" />
+
+                <EditText
+                    android:id="@+id/number"
+                    style="@style/style_et" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

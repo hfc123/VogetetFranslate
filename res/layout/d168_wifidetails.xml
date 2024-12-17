@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_greybg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top_names"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/wifi_details_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/wifi_details"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/wifi_details_name"
+            style="@style/style_head"
+            android:paddingLeft="28dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:text="@string/label_tp_sunkaisens7" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/wifi_details"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/wifi_details_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/wifi_status_body"
+                style="@style/style_linear_layout"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:gravity="center|left"
+                    android:text="@string/d168_conn_status" />
+
+                <TextView
+                    android:id="@+id/wifi_details_zt_text"
+                    style="@style/style_tv2"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/wifi_speed_body"
+                style="@style/style_linear_layout"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:gravity="center|left"
+                    android:text="@string/d168_wifi_speed" />
+
+                <TextView
+                    android:id="@+id/wifi_speed_text"
+                    style="@style/style_tv2"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/label_mbps" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/wifi_strength_block"
+                style="@style/style_linear_layout"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:gravity="center|left"
+                    android:text="@string/d168_wifi_strength" />
+
+                <TextView
+                    android:id="@+id/wifi_details_qd_text"
+                    style="@style/style_tv2"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/d168_wifi_status_excellent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/style_linear_layout"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:gravity="center|left"
+                    android:text="@string/d168_wifi_security" />
+
+                <TextView
+                    android:id="@+id/wifi_security"
+                    style="@style/style_tv2"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/label_none" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/wifi_pass_block"
+                style="@style/style_linear_layout"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/wifi_pass_label"
+                    style="@style/style_tv"
+                    android:layout_width="115dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center|start"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/d168_wifi_passwd" />
+
+                <EditText
+                    android:id="@+id/wifipasswd"
+                    style="@style/style_et"
+                    android:hint="@string/d168_wifi_pass_edit"
+                    android:maxLength="64" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ip_mode_block"
+                style="@style/style_linear_layout"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/ip_config_label"
+                    style="@style/style_tv"
+                    android:layout_width="115dp"
+                    android:gravity="center|left"
+                    android:text="@string/d168_wifi_ipsettings" />
+
+                <TextView
+                    android:id="@+id/ip_mode_selector"
+                    style="@style/style_et_guide"
+                    android:text="@string/label_dhcp" />
+            </LinearLayout>
+
+            <include
+                layout="@layout/d168_wifi_staticmode"
+                android:visibility="gone" />
+
+            <include
+                layout="@layout/d168_wifi_eapmode"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/forget_network"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_border"
+                android:focusable="true"
+                android:text="@string/bn_forget_network"
+                android:textColor="@color/color_red"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/press_apply" />
+
+    <include layout="@layout/bottom_key_button" />
+
+</LinearLayout>

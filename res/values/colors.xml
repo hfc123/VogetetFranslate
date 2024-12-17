@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colors -->
+    <color name="alpha_80_black">#CC000000</color>
+    <color name="color_ga3">#475560</color>
+    <color name="color_text_n1">#f07d31</color>
+    <color name="color_text_n2">#91c6e8</color>
+    <color name="color_text_blue">#18b7dc</color>
+    <color name="color_tabmore_self_bg">#5c7d92</color>
+    <color name="color_light_grey">#efeff4</color>
+    <color name="color_wihte">#ffffff</color>
+    <color name="color_text_setting1">#323232</color>
+    <color name="color_text_setting2">#78a5b1</color>
+    <color name="color_main1">#293409</color>
+    <color name="color_main2">#6a5e21</color>
+    <color name="color_main3">#bcbcbc</color>
+    <color name="color_main4">#d7d7d7</color>
+    <color name="color_mainbg">#FFFFFF</color>
+    <color name="color_hint">#e3e1e2</color>
+    <color name="color_titleblack">#333333</color>
+    <color name="black333">#333333</color>
+    <color name="color_black">#000000</color>
+    <color name="color_greybg">#ececec</color>
+    <color name="color_greybg2">#dcdcdc</color>
+    <color name="color_dark_greybg">#bcbcbc</color>
+    <color name="color_dark2_greybg">#7c7c7c</color>
+    <color name="color_text">#e1e1e1</color>
+    <color name="color_text_grey">#808080</color>
+    <color name="color_darktext">#666666</color>
+    <color name="color_lightgreen">#00CC00</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_tab_host_line">#797979</color>
+    <color name="color_darkgreen">#009900</color>
+    <color name="color_childbg1">#5d7811</color>
+    <color name="color_childbg2">#f2ffd3</color>
+    <color name="color_childbg3">#c13f3f</color>
+    <color name="color_childbg4">#f08383</color>
+    <color name="color_childbg5">#58e900</color>
+    <color name="color_childbg6">#b3d463</color>
+    <color name="color_text1">#293409</color>
+    <color name="gray666">#666666</color>
+    <color name="gray999">#999999</color>
+    <color name="color_text11">#697449</color>
+    <color name="color_text2">#f2ffd3</color>
+    <color name="color_text3">#8e8e8e</color>
+    <color name="color_text4">#6a5e21</color>
+    <color name="color_neterror">#F88797</color>
+    <color name="color_register_failed">#FF0000</color>
+    <color name="colorblue_006dd9">#006dd9</color>
+    <color name="colorblue_002f6f">#4D002F6F</color>
+
+    <!-- 消息列表界面消息内容字体颜色 -->
+    <color name="color_msg_body_2">#d3d1d2</color>
+    <!-- 通话界面背景色 -->
+    <color name="color_call_mainbg">#7a7a7a</color>
+    <!-- 语音组呼界面背景色 -->
+    <color name="color_gacall_mainbg">#f5f5f5</color>
+    <!-- 语音组呼界面组内用户背景色 -->
+    <color name="color_gacall_usersbg">#e3e1e2</color>
+    <!-- 语音组呼界面组内用户数量字体颜色 -->
+    <color name="color_gacall_userstextcolor">#54b9cd</color>
+    <color name="color_title">#54b9cd</color>
+    <color name="d168_mainbg">#54b9cd</color>
+    <color name="d168_mainbg2">#2c6fe9</color>
+    <color name="bg_btnchoosed">#8d80c9</color>
+    <color name="bg_btnchoosed2">#778d80c9</color>
+    <color name="yellowfffc00">#fffc00</color>
+
+    <!-- 标题栏颜色 -->
+
+
+    <!-- 灰色 -->
+    <color name="color_text6">#aaaaaa</color>
+    <color name="color_text5">#c0c0c0</color>
+    <color name="color_line1">#c1caad</color>
+    <color name="color_background1">#6a5e22</color>
+    <color name="color_background2">#5a701d</color>
+    <color name="color_word">#5b7a06</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_white_tran">#DDFFFFFF</color>
+    <color name="color_contact_submenu_bg">#bbbbbb</color>
+    <color name="wihtefff">#fff</color>
+    <color name="graye1e1e1">#e1e1e1</color>
+    <color name="dialog_btn_bg">#76C7D7</color>
+    <color name="bg_gray_light">#eeeeee</color>
+    <color name="bg_gray_2">#cccccc</color>
+    <color name="bg_main">#54b9cd</color>
+
+    <!-- 透明 -->
+    <color name="color_transparent">#00000000</color>
+    <color name="color_users_in_group">#7fffd4</color>
+    <color name="color_childbg_transparent">#7fb3d463</color>
+    <color name="color_contact_list_item">#febc2e</color>
+
+    <!-- D168 -->
+    <color name="d168_btn">#44c9cd</color>
+    <color name="d168_yellow">#ead816</color>
+    <color name="d168_titleblack">#888888</color>
+    <color name="d168_color_greybg_tran">#55000000</color>
+    <color name="d168_btn_disable">#b0d6e0</color>
+    <color name="d168_title_font_color">#ffffff</color>
+    <color name="d168_purple_light">#9c44f9</color>
+    <color name="d168_memu_back">#323333</color>
+    <color name="d168_home_back">#060606</color>
+    <color name="d168_contact_item_back">#ffffff</color>
+    <color name="d168_sub_back">#555555</color>
+    <color name="d168_main_textcolor">#FFFFFF</color>
+    <color name="d168_main_seltextcolor">#000000</color>
+    <color name="d168_tab_headercolor">#FFFFFF</color>
+    <color name="d168_tab_headerselect">#555555</color>
+    <color name="d168_contact_sub_back">#cccccc</color>
+    <color name="d168_contact_bottom">#4D002f6f</color>
+    <color name="blue002f6f">#002f6f</color>
+    <color name="d168_call_bottom">#99555555</color>
+    <color name="d168_call_second_bg">#80555555</color>
+    <color name="d168_contact_item_select">#888888</color>
+    <color name="contact_bottom_line">#0033ff</color>
+    <color name="d168_locktip_color">#555555</color>
+    <color name="dialog_title">#4db9dd</color>
+    <!-- 充电图标显示背景色 -->
+    <color name="d168_chargering_icon_color">#3F3F3F</color>
+    <!-- 通话记录与通话图标对应字体颜色 -->
+    <color name="d168_miss_calls_textcolor">#E62129</color>
+    <color name="d168_received_calls_textcolor">#1658DB</color>
+    <color name="d168_outgoing_calls_textcolor">#70CC14</color>
+    <color name="d168_forward_calls_textcolor">#901990</color>
+    <color name="color_glock_tip">#FFFFFF</color>
+    <color name="wifi_menu_text">#666</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_BCBCBC">#BCBCBC</color>
+    <color name="color_060606">#060606</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_808080">#808080</color>
+
+</resources>

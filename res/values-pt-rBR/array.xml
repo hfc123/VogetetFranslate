@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="callsessionTimerMode">
+        <item>Inativo</item>
+        <item>Opcional</item>
+        <item>Requeridos</item>
+        <item>Sempre</item>
+    </string-array>
+    <string-array name="callsessionRefreshMode">
+        <item>Não usado</item>
+        <item>Adaptável</item>
+    </string-array>
+    <string-array name="codec">
+        <item>PCMA</item>
+        <item>PCMU</item>
+        <item>G729</item>
+        <item>GSM</item>
+        <item>ILIBC</item>
+        <item>G722</item>
+        <item>OPUS</item>
+        <item>Speex-WB</item>
+    </string-array>
+    <string-array name="ip_mode">
+        <item>DHCP</item>
+        <item>estático</item>
+    </string-array>
+    <string-array name="brightness">
+        <item>Baixo</item>
+        <item>Meio</item>
+        <item>Alto</item>
+    </string-array>
+
+    <integer-array name="brightness_level">
+        <item>130</item>
+        <item>180</item>
+        <item>230</item>
+    </integer-array>
+
+    <string-array name="timezone">		
+		<item>Pacífico / Midway</item>
+		<item>Pacífico / Honolulu</item>
+		<item>América / Anchorage</item>
+		<item>América / Los_Angeles</item>
+		<item>América / Tijuana</item>
+		<item>América / Phoenix</item>
+		<item>América / Chihuahua</item>
+		<item>América / Denver</item>
+		<item>América / Costa_Rica</item>
+		<item>América / Chicago</item>
+		<item>América / México</item>
+		<item>América / Regina</item>
+		<item>América / Bogotá</item>
+		<item>América / Nova Iorque</item>
+		<item>América / Caracas</item>
+		<item>América / Barbados</item>
+		<item>América / Halifax</item>
+		<item>América / Manaus</item>
+		<item>América / São João</item>
+		<item>América / Santiago</item>
+		<item>América / Argentina / Buenos_Aires</item>
+		<item>América / Godthab</item>
+		<item>América / São_Paulo</item>
+		<item>América / Montevidéu</item>
+		<item>Atlântico / Sul Geórgia</item>
+		<item>Atlântico / Açores</item>
+		<item>Atlantic / Cabo Verde</item>
+		<item>África / Casablanca</item>
+		<item>Europa / Londres</item>
+		<item>Europa / Amsterdão</item>
+		<item>Europa / Belgrado</item>
+		<item>Europa / Bruxelas</item>
+		<item>Europa / Sarajevo</item>
+		<item>África / Brazavile</item>
+		<item>Africa / Windhoek</item>
+		<item>Europa / Atenas</item>
+		<item>Ásia / Beirute</item>
+		<item>África / Cairo</item>
+		<item>Europa / Helsinquia</item>
+		<item>Asia / Jerusalem</item>
+		<item>Africa / Harare</item>
+		<item>Ásia / Amã</item>
+		<item>Europa / Minsk</item>
+		<item>Asia / Bagdá</item>
+		<item>Ásia / Kuwait</item>
+		<item>Africa / Nairobi</item>
+		<item>Asia / Teerão</item>
+		<item>Europa / Moscovo</item>
+		<item>Ásia / Baku</item>
+		<item>Ásia / Tbilisi</item>
+		<item>Asia / Yerevan</item>
+		<item>Ásia / Kabul</item>
+		<item>Ásia / Karachi</item>
+		<item>Ásia / Oral</item>
+		<item>Ásia / Calcutá</item>
+		<item>Ásia / Colombo</item>
+		<item>Asia / Katmandu</item>
+		<item>Asia / Yekaterinburg</item>
+		<item>Asia / Almaty</item>
+		<item>Asia / Rangoon</item>
+		<item>Asia / Bangkok</item>
+		<item>Asia / Jakarta</item>
+		<item>Ásia / Krasnoyarsk</item>
+		<item>Asia / Shanghai</item>
+		<item>Ásia / Hong Kong</item>
+		<item>Ásia / Kuala Lumpur</item>
+		<item>Austrália / Perth</item>
+		<item>Ásia / Taipé</item>
+		<item>Ásia / Irkutsk</item>
+		<item>Ásia / Seul</item>
+		<item>Ásia / Tóquio</item>
+		<item>Austrália / Darwin</item>
+		<item>Ásia / Yakutsk</item>
+		<item>Austrália / Brisbane</item>
+		<item>Pacífico / Guam</item>
+		<item>Austrália / Adelaide</item>
+		<item>Austrália / Hobart</item>
+		<item>Austrália / Sydney</item>
+		<item>Ásia / Vladivostok</item>
+		<item>Pacífico / Majuro</item>
+		<item>Ásia / Magadan</item>
+		<item>Pacífico / Auckland</item>
+		<item>Pacífico / Fiji</item>
+		<item>Pacífico / Tongatapu</item>
+								
+    </string-array>
+    <string-array name="timezoneaddress">		
+		<item>-11 Midway Island</item>
+		<item>-10 Havaí</item>
+		<item>-09 Alasca</item>
+		<item>-08 Horário do Pacífico</item>
+		<item>-08 Tijuana</item>
+		<item>-07 Arizona</item>
+		<item>-07 Chihuahua</item>
+		<item>-07 horário da montanha</item>
+		<item>-06 América Central</item>
+		<item>-06 Hora Central</item>
+		<item>-06 México (Cidade do México, Acapulco)</item>
+		<item>-06 Saskatchewan</item>
+		<item>-05 Bogotá</item>
+		<item>-05 Hora do Leste</item>
+		<item>-04:30 Venezuela</item>
+		<item>-04 Horário do Atlântico (Barbados)</item>
+		<item>-04 Horário do Atlântico (Canadá)</item>
+		<item>-04 Manaus</item>
+		<item>-03:30 Terra Nova</item>
+		<item>-03 Santiago</item>
+		<item>-03 Buenos Aires</item>
+		<item>-03 Groenlândia</item>
+		<item>-02 Brasília</item>
+		<item>-02 Montevidéu</item>
+		<item>-02 Mid-Atlantic</item>
+		<item>-01 Açores</item>
+		<item>-01 Ilhas de Cabo Verde</item>
+		<item>0 Casablanca</item>
+		<item>0 Londres,Dublin,Lisboa</item>
+		<item>+1 Amsterdam, Berlim</item>
+		<item>+1 Belgrado</item>
+		<item>+1 Bruxelas</item>
+		<item>+1 Sarajevo</item>
+		<item>+1 W.Africa Time</item>
+		<item>+2 Windhoek</item>
+		<item>+2 Atenas, Istambul</item>
+		<item>+2 Beirute, Líbano</item>
+		<item>+2 Cairo</item>
+		<item>+2 Helsinquia</item>
+		<item>+2 de Jerusalém</item>
+		<item>+2 Harare</item>
+		<item>+3 Amã, Jordânia</item>
+		<item>+3 Minsk</item>
+		<item>+3 Bagdá</item>
+		<item>+3 Kuwait</item>
+		<item>+3 Nairobi</item>
+		<item>+3:30 Teerão</item>
+		<item>+4 Moscovo</item>
+		<item>+4 Baku</item>
+		<item>+4 Tbilisi</item>
+		<item>+4 Yerevan</item>
+		<item>+4:30 Cabul</item>
+		<item>+5 Islamabad, Carachi</item>
+		<item>+5 Ural\'sk</item>
+		<item>+5:30 Calcutá</item>
+		<item>+5:30 Sri Lanka</item>
+		<item>+5:45 Kathmandu</item>
+		<item>+6 Ecaterimburgo</item>
+		<item>+6 Astana</item>
+		<item>+6:30 Yangon</item>
+		<item>+7 Bangkok</item>
+		<item>+7 Jacarta</item>
+		<item>+8 Krasnoyarsk</item>
+		<item>+8 Pequim</item>
+		<item>+8 Hong Kong</item>
+		<item>+8 Kuala Lumpur</item>
+		<item>+8 Perth</item>
+		<item>+8 Taipei</item>
+		<item>+9 Irkutsk</item>
+		<item>+9 Seul</item>
+		<item>+9 Tóquio, Osaka</item>
+		<item>+9:30 Austrália (Darwin)</item>
+		<item>+10 Yakutsk</item>
+		<item>+10 Brisbane</item>
+		<item>+10 Guam</item>
+		<item>+10:30 Adelaide</item>
+		<item>+11 Hobart</item>
+		<item>+11 Sydney, Canberra</item>
+		<item>+11 Vladivostok</item>
+		<item>+12 Ilhas Marshall</item>
+		<item>+12 Magadan</item>
+		<item>+13 Auckland</item>
+		<item>+13 Fiji</item>
+		<item>+13 Tonga</item>
+				
+    </string-array>
+    <string-array name="backlight">
+        <item>15s</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>2m</item>
+        <item>5m</item>
+    </string-array>
+
+    <integer-array name="backlight_time">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+    </integer-array>
+
+    <string-array name="languageList">
+        <item>English</item>
+        <item>简体中文</item>
+        <item>Pусский</item>
+        <item>In Italiano</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Français</item>       
+        <item>German</item>
+        <item>Netherlands</item>
+        <item>Turkish</item>
+        <item>Polish</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>NENHUM</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    
+    <string-array name="eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <!--
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        -->
+    </string-array>
+    <string-array name="eap_phrase2">
+        <item>NENHUM</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="eap_phrase2_all">
+        <item>NENHUM</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+    </string-array>
+    <string-array name="wpai_psk_type">
+        <item>WPAI PSK ASCII</item>
+        <item>WPAI PSK hexadecimal</item>
+    </string-array>
+    <string-array name="date_format">
+        <item>1 Jan, seg</item>
+        <item>Jan 1, seg</item>
+        <item>Seg, 1 Jan</item>
+        <item>Seg,Janeiro 1</item>
+        <item>DD MM AAAA</item>
+        <item>MM DD AAAA</item>
+        <item>AAAA MM DD</item>
+    </string-array>
+    <string-array name="date_separator">
+        <item>/</item>
+        <item>-</item>
+        <item>.</item>
+        <item>espaço</item>
+    </string-array>
+    
+     <string-array name="log_mode">
+        <item>Desabilitar</item>
+        <item>Log normal</item>
+        <item>Log do sistema</item>
+    </string-array> 
+    
+    <string-array name="log_level">
+        <item>Erro</item>
+        <item>Caloroso</item>
+        <item>Info</item>
+        <item>Depurar</item>
+        <item>Verboso</item>
+    </string-array>     
+
+</resources>

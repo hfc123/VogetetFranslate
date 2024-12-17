@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="67dp"
+    android:background="@color/color_white"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingTop="4dp" >
+
+    <RelativeLayout
+        android:id="@+id/left_block"
+        android:layout_width="37dp"
+        android:layout_height="31dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/d168_contact_menu_leftmargin" >
+
+        <ImageView
+            android:id="@+id/msg_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/message_read" />
+
+        <TextView
+            android:id="@+id/remote_unseen"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/spot_n"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color_white"
+            android:textSize="12sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="@dimen/d168_contact_menu_leftmargin"
+        android:layout_toRightOf="@id/left_block"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:id="@+id/item_list_message_byremote_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/remote_name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black333"
+                android:textSize="21sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/remote_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:text=""
+                android:textColor="@color/gray999"
+                android:textSize="16sp" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/remote_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_list_message_byremote_top"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/gray666"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/d168_contact_menu_leftmargin"
+        android:layout_marginRight="@dimen/d168_contact_menu_leftmargin"
+        android:background="@color/graye1e1e1" />
+
+</RelativeLayout>

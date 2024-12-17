@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="vogtec_string_empty">""</string>
+    <string name="select">Select</string>
+    <string name="back">Back</string>
+    <string name="vogtec_bottom_menu">Menu</string>
+    <string name="vogtec_bottom_ok">Ok</string>
+    <string name="vogtec_bottom_hold">Hold</string>
+    <string name="vogtec_bottom_unhold">Unhold</string>
+    <string name="vogtec_bottom_unmute">Unmute</string>
+    <string name="vogtec_bottom_hangup">Hangup</string>
+    <string name="vogtec_bottom_silence">Silence</string>
+    <string name="vogtec_bottom_back">Back</string>
+    <string name="vogtec_incall_bt_headset">To BT headset</string>
+    <string name="vogtec_incall_receiver">To receiver</string>
+    <string name="vogtec_incall_headset">To headset</string>
+    <string name="vogtec_incall_add_call">Add new call</string>
+    <string name="vogtec_incall_hold">Hold</string>
+    <string name="vogtec_incall_unhold">Unhold</string>
+    <string name="vogtec_incall_mute">Mute</string>
+    <string name="vogtec_incall_unmute">Unmute</string>
+    <string name="vogtec_bottom_swap">Swap</string>
+    <string name="vogtec_incall_speaker">Speaker</string>
+    <string name="vogtec_incall_merge">Merge</string>
+    <string name="vogtec_incall_unmerge">Un Merge</string>
+    <string name="v_call_by_dial">Add by dialing</string>
+    <string name="v_call_by_contact">Add via contact</string>
+    <string name="v_right_del">Botão direito para excluir</string>
+    <string name="right_soft_key_to_delete_content">Right soft key to delete content</string>
+    <string name="redial_tip">%d seconds left</string>
+    <string name="redial_time_tip">%d times left</string>
+    <string name="redial_title">ReDial</string>
+    <string name="select_contact">Select contact</string>
+    <string name="input_number" >Input number</string>
+
+    <string name="onscreenEndCallText" msgid="4403855834875398585">"結束"</string>
+    <!-- M: add for Blind ECT -->
+    <string name="add_transfer_with_consultation">Transfer with consultation</string>
+
+    <!-- In-call screen: status label for a conference call -->
+    <string name="caller_manage_header">Conference call <xliff:g id="conf_call_time">%s</xliff:g></string>
+</resources>

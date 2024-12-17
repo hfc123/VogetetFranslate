@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_greybg2"
+    android:orientation="vertical">
+        
+    <TextView
+        android:id="@+id/log_title"
+        style="@style/style_head"
+        android:text="@string/d168_log_title" />
+	    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    
+	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	    	        
+		<LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="@dimen/d168_height_42" >
+		
+		    <TextView
+		        android:layout_height="fill_parent"
+		        android:layout_width="0dp"
+		        android:textColor="@color/d168_home_back"
+		        android:textSize="@dimen/d168_font_size_20"
+		        android:gravity="center|start"
+		        android:layout_weight="1"
+		        android:layout_marginStart="2dp"
+		        android:text="@string/d168_log_mode" />
+		
+		    <TextView
+		        android:id="@+id/log_mode"
+		        android:layout_width="@dimen/d168_width_200"
+		        android:layout_height="@dimen/d168_height_40"	        
+		        android:layout_marginEnd="2dp"	
+		        android:focusable="true"	
+		        android:includeFontPadding="false"	       	
+		        android:drawableEnd="@drawable/guide"	
+		        android:background="@drawable/edit_text"
+		        android:textColor="@color/d168_home_back"
+		        android:textSize="@dimen/d168_font_size_18"
+		        android:text="" />
+		    
+		</LinearLayout>
+		    
+		<LinearLayout
+		    android:id="@+id/layout_log_level" 
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="@dimen/d168_height_42"
+		    android:visibility="gone" >
+		
+		    <TextView
+		        android:layout_height="fill_parent"
+		        android:layout_width="0dp"
+		        android:textColor="@color/d168_home_back"
+		        android:textSize="@dimen/d168_font_size_20"
+		        android:gravity="center|start"
+		        android:layout_weight="1"
+		        android:layout_marginStart="2dp"
+		        android:text="@string/d168_log_level" />
+		
+		    <TextView
+		        android:id="@+id/log_level"
+		        android:layout_width="@dimen/d168_width_150"
+		        android:layout_height="@dimen/d168_height_40"	        
+		        android:layout_marginEnd="2dp"	
+		        android:gravity="center|start"
+		        android:focusable="true"
+		        android:includeFontPadding="false"
+		        android:textColor="@color/d168_home_back"	
+		        android:drawableEnd="@drawable/guide"	
+		        android:background="@drawable/edit_text"
+		        android:textSize="@dimen/d168_font_size_18"
+		        android:text="" />
+		    
+		</LinearLayout> 
+	</LinearLayout>
+	</ScrollView>
+	
+			
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+		       		
+	    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <include 
+	        layout="@layout/press_apply" />
+	
+	    <LinearLayout
+	        android:id="@+id/bottom"        
+	        style="@style/style_bottom_block"
+	        android:layout_gravity="bottom" >
+	        
+	        <TextView
+	            android:id="@+id/tv_left_btn"
+	            style="@style/style_bottom_left"
+	            android:text="" />
+	
+	        <TextView
+	            android:id="@+id/tv_inputtype"
+	            style="@style/style_bottom_middle"
+	            android:text="" />
+	
+	        <TextView
+	            android:id="@+id/tv_right_btn"
+	            style="@style/style_bottom_right"
+	            android:text="@string/bn_soft_right_back" />
+	    </LinearLayout>   
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@drawable/main_bg_3" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/d168_feature_menu" />
+
+        <include layout="@layout/d168_director" />
+
+        <include layout="@layout/d168_history" />
+
+        <include layout="@layout/d168_message" />
+
+        <include layout="@layout/d168_network" />
+
+        <include layout="@layout/d168_account_menu" />
+
+        <include layout="@layout/d168_preference" />
+
+        <include layout="@layout/d168_update" />
+
+        <include layout="@layout/d168_status" />
+    </LinearLayout>
+
+</HorizontalScrollView>

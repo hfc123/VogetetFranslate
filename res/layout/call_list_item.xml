@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="74dp"
+    android:background="@drawable/list_sel_green"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingTop="@dimen/callh_item_padding">
+
+    <LinearLayout
+        android:id="@+id/itemimage_layout"
+        android:layout_width="@dimen/tab_msg_item_icon_w"
+        android:layout_height="@dimen/tab_msg_item_icon_h"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="1dp" >
+
+        <com.wecomm.d168.fragment.CircleImageView
+            android:id="@+id/itemimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/n_image_icon1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/right_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/callh_item_body_mLeft"
+        android:layout_marginRight="@dimen/callh_item_body_mRight"
+        android:layout_toRightOf="@id/itemimage_layout" >
+
+        <ImageButton
+            android:id="@+id/itembutton"
+            android:layout_width="@dimen/callh_item_callicon_w"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/color_transparent"
+            android:adjustViewBounds="true"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/call_out_default" />
+
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/itembutton"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:gravity="left"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/color_titleblack"
+            android:textSize="@dimen/callh_item_num_fontsize" />
+
+        <TextView
+            android:id="@+id/itemtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/callh_item_stime_padding"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/color_darktext"
+            android:textSize="@dimen/callh_item_stime_fontsize" />
+
+        <TextView
+            android:id="@+id/itemtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/itemtime"
+            android:layout_below="@id/itembutton"
+            android:focusable="false"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/color_darktext"
+            android:textSize="@dimen/callh_item_text_fontsize" />
+
+        <TextView
+            android:id="@+id/iteminterval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/itembutton"
+            android:focusable="false"
+            android:singleLine="true"
+            android:layout_marginBottom="10dp"
+            android:text=""
+            android:textColor="@color/color_darktext"
+            android:textSize="@dimen/callh_item_time_fontsize" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:background="@color/color_text" />
+
+</RelativeLayout>

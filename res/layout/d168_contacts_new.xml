@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smartalk.client.Director"
+    android:background="@drawable/d168_mainbg" >
+
+    <TextView
+        android:id="@+id/contact_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d168_title_h"
+        android:text="@string/label_contacts" 
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/d168_title_font_size"/>
+    
+	<!-- android:layout_below="@id/feature_icon" -->
+    
+    <TextView 
+        android:id="@+id/select"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/btn_select"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
+    
+    <TextView 
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/btn_back"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    
+    <ListView 
+        android:id="@+id/contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/contact_label"
+        android:layout_above="@id/back"
+        android:background="@color/color_white">
+        
+    </ListView>
+    
+    
+
+</RelativeLayout>

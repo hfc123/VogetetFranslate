@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/color_white"
+    android:gravity="center|left">
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="@string/btn_account"
+        android:textColor="@color/color_black"
+        android:textSize="27sp" />
+
+</LinearLayout>

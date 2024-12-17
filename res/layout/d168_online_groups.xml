@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/d168_tab_headerselect" >
+
+    <TextView
+        android:id="@+id/contact_label"
+        style="@style/style_head"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="@string/d168_label_online_direct" />
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="100dp"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|left"
+        android:text=""
+        android:textColor="@color/color_white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="100dp"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center|right"
+        android:text="@string/btn_back"
+        android:textColor="@color/color_white"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_below="@id/contact_label"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:padding="7dp"
+        android:singleLine="true"
+        android:textColor="@color/color_text1"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/back"
+        android:layout_below="@id/search"
+        android:background="@color/color_light_grey"
+        android:focusable="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/tip_contact_searching"
+        android:textColor="@color/color_text3"
+        android:textSize="26sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

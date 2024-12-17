@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_grey" >
+
+    <TextView
+        android:id="@+id/title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d168_title_h"
+        android:background="@color/d168_sub_back"
+        android:gravity="center"
+        android:text="@string/d168_update_title"
+        android:textColor="@color/d168_title_font_color"
+        android:textSize="@dimen/d168_title_font_size" />
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/d168_sub_back" >
+
+        <TextView
+            android:id="@+id/leftbtn"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="@string/btn_select"
+            android:textColor="@color/color_white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inputtype"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rightbtn"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/btn_back"
+            android:textColor="@color/color_white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/title_label"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/version_label"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@color/color_greybg"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="@string/d168_ut_version_label"
+            android:textColor="@color/color_text3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/version_body"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/version_label"
+            android:background="@color/color_white"
+            android:gravity="center"
+            android:textColor="@color/color_text1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/progress_label"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/version_body"
+            android:background="@color/color_greybg"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="@string/d168_ut_progress"
+            android:textColor="@color/color_text3"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/update_progress"
+            style="@style/ProgressBar_Mini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress_label"
+            android:layout_marginTop="15dp"
+            android:max="100"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/tips_label"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/update_progress"
+            android:layout_marginTop="15dp"
+            android:background="@color/color_greybg"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="@string/d168_ut_download_status"
+            android:textColor="@color/color_text3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tips_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:layout_below="@id/tips_label"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:textColor="@color/color_text1"
+            android:background="@color/color_white"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tips_body"
+            android:gravity="center"
+            android:background="@color/color_greybg"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/install"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/d168_checked_btn_bg"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/d168_ut_install"
+                android:textColor="@color/color_white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/d168_checked_btn_bg"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/d168_ut_cancel"
+                android:textColor="@color/color_white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

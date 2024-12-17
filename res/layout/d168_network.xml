@@ -1,0 +1,269 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_grey" >
+
+    <TextView
+        android:id="@+id/styleHead"
+        style="@style/style_head"
+        android:background="@color/d168_tab_headercolor"
+        android:text="@string/label_network" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:fillViewport="true"
+        android:overScrollMode="always"
+        android:layout_below="@id/styleHead"
+        android:layout_above="@id/bottom"
+		android:scrollbars="vertical" >
+
+	   <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5dp" >
+
+		    <RelativeLayout
+		        android:id="@+id/block_mobile"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@color/d168_contact_item_back"
+		        android:paddingLeft="5dp" >
+
+		        <TextView
+		            android:id="@+id/label_mobile"
+		            android:layout_width="180dp"
+		            android:layout_height="wrap_content"
+		            android:gravity="center|start"
+		            android:text="@string/d168_network_mobile"
+		            android:textColor="@color/color_black"
+		            android:textSize="24sp" />
+
+		        <CheckBox
+		            android:id="@+id/enable_mobile"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentEnd="true"
+		            android:layout_margin="5dp"
+					android:layout_centerVertical="true"
+		            android:button="@drawable/checkboxstatus" />
+		    </RelativeLayout>
+
+		    <RelativeLayout
+		        android:id="@+id/block_apn"
+		        android:layout_width="match_parent"
+		        android:layout_height="45dp"
+		        android:layout_below="@id/block_mobile"
+		        android:layout_marginTop="2dp"
+		        android:background="@color/d168_contact_item_back"
+		        android:focusable="true"
+		        android:paddingLeft="5dp" >
+
+		        <TextView
+		            android:layout_width="180dp"
+		            android:layout_height="45dp"
+		            android:gravity="center|start"
+		            android:text="@string/label_network_apn"
+		            android:textColor="@color/color_black"
+		            android:textSize="24sp" />
+
+		        <ImageView
+		            android:layout_width="@dimen/d168_contact_menu_item_more_w"
+		            android:layout_height="@dimen/d168_contact_menu_item_more_h"
+		            android:layout_alignParentEnd="true"
+		            android:layout_centerVertical="true"
+		            android:background="@drawable/wifi_more" />
+		    </RelativeLayout>
+
+		    <RelativeLayout
+		        android:id="@+id/block_network"
+		        android:layout_width="match_parent"
+		        android:layout_height="45dp"
+		        android:layout_below="@id/block_apn"
+		        android:layout_marginTop="2dp"
+		        android:background="@color/d168_contact_item_back"
+		        android:focusable="true"
+		        android:paddingLeft="5dp" >
+
+		        <TextView
+		            android:layout_width="180dp"
+		            android:layout_height="45dp"
+		            android:gravity="center|start"
+		            android:text="@string/label_network_config"
+		            android:textColor="@color/color_black"
+		            android:textSize="24sp" />
+
+		        <ImageView
+		            android:layout_width="@dimen/d168_contact_menu_item_more_w"
+		            android:layout_height="@dimen/d168_contact_menu_item_more_h"
+		            android:layout_alignParentEnd="true"
+		            android:layout_centerVertical="true"
+		            android:background="@drawable/wifi_more" />
+		    </RelativeLayout>
+
+		    <RelativeLayout
+		        android:id="@+id/block_security"
+		        android:layout_width="match_parent"
+		        android:layout_height="45dp"
+		        android:layout_below="@id/block_network"
+		        android:layout_marginTop="2dp"
+		        android:background="@color/d168_contact_item_back"
+		        android:focusable="true"
+		        android:paddingLeft="5dp" >
+
+		        <TextView
+		            android:layout_width="180dp"
+		            android:layout_height="45dp"
+		            android:gravity="center|start"
+		            android:text="@string/security"
+		            android:textColor="@color/color_black"
+		            android:textSize="24sp" />
+
+		        <ImageView
+		            android:layout_width="@dimen/d168_contact_menu_item_more_w"
+		            android:layout_height="@dimen/d168_contact_menu_item_more_h"
+		            android:layout_alignParentEnd="true"
+		            android:layout_centerVertical="true"
+		            android:background="@drawable/wifi_more" />
+		    </RelativeLayout>
+
+	        <!-- wifi热点 -->
+	        <RelativeLayout
+	            android:id="@+id/wlan_hotspot"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/block_security"
+	            android:layout_marginTop="2dp"
+	            android:background="@color/d168_contact_item_back"
+	            android:focusable="true"
+	            android:paddingLeft="5dp" >
+
+	            <TextView
+	                android:layout_width="180dp"
+	                android:layout_height="wrap_content"
+	                android:gravity="center|start"
+	                android:text="@string/d168_network_wlan_host"
+	                android:textColor="@color/color_black"
+	                android:textSize="24sp" />
+
+	            <ImageView
+	                android:layout_width="@dimen/d168_contact_menu_item_more_w"
+	                android:layout_height="@dimen/d168_contact_menu_item_more_h"
+	                android:layout_alignParentEnd="true"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/wifi_more" />
+	        </RelativeLayout>
+
+		    <RelativeLayout
+		        android:id="@+id/rela_wlan"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/wlan_hotspot"
+		        android:layout_marginTop="2dp" >
+
+		        <RelativeLayout
+		            android:id="@+id/block_wlan"
+		            android:layout_width="match_parent"
+		            android:layout_height="45dp"
+		            android:background="@color/d168_contact_item_back"
+		            android:paddingLeft="5dp" >
+
+		            <TextView
+		                android:layout_width="180dp"
+		                android:layout_height="45dp"
+		                android:gravity="center|start"
+		                android:text="@string/d168_network_wlan"
+		                android:textColor="@color/color_black"
+		                android:textSize="24sp" />
+
+		            <CheckBox
+		                android:id="@+id/enable_wlan"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentEnd="true"
+		                android:layout_margin="5dp"
+						android:layout_centerVertical="true"
+		                android:button="@drawable/checkboxstatus" />
+		        </RelativeLayout>
+
+		        <RelativeLayout
+		            android:id="@+id/block_wlan_list"
+		            android:layout_width="match_parent"
+		            android:layout_height="45dp"
+		            android:layout_below="@id/block_wlan"
+		            android:layout_marginTop="2dp"
+		            android:background="@color/d168_contact_item_back"
+		            android:focusable="true"
+		            android:paddingLeft="5dp" >
+
+		            <TextView
+		                android:layout_width="180dp"
+		                android:layout_height="45dp"
+		                android:gravity="center|start"
+		                android:text="@string/d168_network_wlan_list"
+		                android:textColor="@color/color_black"
+		                android:textSize="24sp" />
+
+		            <ImageView
+		                android:layout_width="@dimen/d168_contact_menu_item_more_w"
+		                android:layout_height="@dimen/d168_contact_menu_item_more_h"
+		                android:layout_alignParentEnd="true"
+		                android:layout_centerVertical="true"
+		                android:background="@drawable/wifi_more" />
+		        </RelativeLayout>
+
+		        <!-- WPS Setting -->
+		        <RelativeLayout
+		            android:id="@+id/wps_set"
+		            android:layout_width="match_parent"
+		            android:layout_height="45dp"
+		            android:layout_below="@id/block_wlan_list"
+		            android:layout_marginTop="2dp"
+		            android:background="@color/d168_contact_item_back"
+		            android:focusable="true"
+		            android:paddingLeft="5dp" >
+
+		            <TextView
+		                android:layout_width="180dp"
+		                android:layout_height="45dp"
+		                android:gravity="center|start"
+		                android:text="@string/label_set_set"
+		                android:textColor="@color/color_black"
+		                android:textSize="24sp" />
+
+		            <ImageView
+		                android:layout_width="@dimen/d168_contact_menu_item_more_w"
+		                android:layout_height="@dimen/d168_contact_menu_item_more_h"
+		                android:layout_alignParentEnd="true"
+		                android:layout_centerVertical="true"
+		                android:background="@drawable/wifi_more" />
+		        </RelativeLayout>
+		    </RelativeLayout>
+	   </RelativeLayout>
+   </ScrollView>
+
+    <!-- 底部导航 -->
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/style_bottom_block"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/tv_left_btn"
+            style="@style/style_bottom_left"
+            android:text="@string/btn_select" />
+
+        <TextView
+            android:id="@+id/tv_inputtype"
+            style="@style/style_bottom_middle"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_right_btn"
+            style="@style/style_bottom_right"
+            android:text="@string/bn_soft_right_back" />
+    </LinearLayout>
+
+</RelativeLayout>

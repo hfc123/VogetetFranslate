@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--此配置中的数据是为标准:1，其他尺寸根据比例在此基础上按比例增减-->
+   
+   	<!-- 通话历史记录界面 -->
+   	<!-- 每条记录的内边距 -->
+	<dimen name="callh_item_padding">10dp</dimen>
+	<!-- 每条记录右侧body外边距 -->
+	<dimen name="callh_item_body_mLeft">8dp</dimen>
+	<dimen name="callh_item_body_mRight">8dp</dimen>
+	<!-- 每条记录通话类型图标宽高 -->
+	<dimen name="callh_item_callicon_w">20dp</dimen>
+	<!-- 每条记录通话类型图标外边距 -->
+	<dimen name="callh_item_callicon_margin">5dp</dimen>
+	<!-- 每条记录通话号码内边距 -->
+	<dimen name="callh_item_num_pRight">10dp</dimen>
+	<!-- 每条记录通话号码字体大小 -->
+	<dimen name="callh_item_num_fontsize">16sp</dimen>
+	<!-- 每条记录通话时长外边距 -->
+	<dimen name="callh_item_time_mTop">2dp</dimen>
+	<!-- 每条记录通话时长外边距 -->
+	<dimen name="callh_item_time_mLeft">5dp</dimen>
+	<!-- 每条记录通话时长字体大小 -->
+	<dimen name="callh_item_time_fontsize">12sp</dimen>
+	<!-- 每条记录通话开始时间内边距 -->
+	<dimen name="callh_item_stime_padding">5dp</dimen>
+	<!-- 每条记录通话开始时间字体大小 -->
+	<dimen name="callh_item_stime_fontsize">12sp</dimen>
+	<!-- 每条记录通话类型文字边距 -->
+	<dimen name="callh_item_text_mRight">5dp</dimen>
+	<dimen name="callh_item_text_padding">2dp</dimen>
+	<!-- 每条记录通话类型文字大小 -->
+	<dimen name="callh_item_text_fontsize">12sp</dimen>
+
+	<!-- 通话界面 -->
+	<!-- 界面内边距 -->
+	<dimen name="call_padding">10dp</dimen>
+	<!-- 对端用户名称外边距 -->
+	<dimen name="call_rName_mTop">10dp</dimen>
+	<!-- 对端用户名称字体大小 -->
+	<dimen name="call_rName_fontsize">20sp</dimen>
+	<!-- 头像区域上外边距 -->
+	<dimen name="call_icon_blo_mTop">70dp</dimen>
+	<!-- 头像图片宽高 -->
+	<dimen name="call_icon_w">100dp</dimen>
+	<dimen name="call_icon_h">100dp</dimen>
+	<!-- 头像图片外边距 -->
+	<dimen name="call_icon_margin">5dp</dimen>
+	<!-- 通话类型提示外边距 -->
+	<dimen name="call_text_mTop">40dp</dimen>
+	<!-- 通话类型提示字体大小 -->
+	<dimen name="call_text_fontsize">20sp</dimen>
+	<!-- 装饰彩灯宽高 -->
+	<dimen name="call_light_w">10dp</dimen>
+	<dimen name="call_light_h">10dp</dimen>
+	<!-- 装饰彩灯外边距 -->
+	<dimen name="call_light_mTop">10dp</dimen>
+	<dimen name="call_light_mRight">20dp</dimen>
+		
+	<!-- 语音来电界面 -->
+	<!-- 底部操作区域宽高 -->
+	<dimen name="call_botOpt_w">300dp</dimen>
+	<dimen name="call_botOpt_h">150dp</dimen>
+	<!-- 挂断按钮宽高 -->
+	<dimen name="call_hangup_w">72dp</dimen>
+	<dimen name="call_hangup_h">72dp</dimen>
+	<!-- 接听按钮宽高 -->
+	<dimen name="call_pickup_w">72dp</dimen>
+	<dimen name="call_pickup_h">72dp</dimen>
+	
+	<!-- 语音呼叫和通话界面 -->
+	<!-- 底部操作区域宽高 -->
+	<dimen name="call2_botOpt_w">300dp</dimen>
+	<dimen name="call2_botOpt_h">170dp</dimen>
+	<!-- 底部操作区域外边距 -->
+	<dimen name="call2_botOpt_margin">10dp</dimen>
+	<!-- 挂断按钮宽高 -->
+	<dimen name="call2_hangup_w">72dp</dimen>
+	<dimen name="call2_hangup_h">36dp</dimen>
+	<!-- 底部2级操作按钮区域高 -->
+	<dimen name="call2_bloOpt2_h">80dp</dimen>
+	<!-- 底部2级操作按钮区域外边距 -->
+	<dimen name="call2_bloOpt2_mTop">10dp</dimen>
+	<!-- 静音按钮宽高 -->
+	<dimen name="call2_mute_w">48dp</dimen>
+	<dimen name="call2_mute_h">48dp</dimen>
+	<!-- 静音按钮外边距 -->
+	<dimen name="call2_mute_margin">7dp</dimen>
+	<!-- 外放按钮宽高 -->
+	<dimen name="call2_speaker_w">48dp</dimen>
+	<dimen name="call2_speaker_h">48dp</dimen>
+	<!-- 发放按钮外边距 -->
+	<dimen name="call2_speaker_mLeft">48dp</dimen>
+	<!-- 计时显示外边距 -->
+	<dimen name="call2_time_mTop">10dp</dimen>
+	<!-- 计时显示字体 -->
+	<dimen name="call2_time_fontsize">20sp</dimen>
+	<!-- 装饰彩灯外边距 -->
+	<dimen name="call2_light_margin">30dp</dimen>
+	<!-- 通话提示字体大小 -->
+	<dimen name="call2_text_fontsize">20sp</dimen>
+	
+	<!-- 视频通话界面 -->
+	<dimen name="callv_text_fontsize">20sp</dimen>
+	
+	
+</resources>

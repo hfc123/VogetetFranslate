@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_height">50.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">1.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">5.0dip</dimen>
+        <dimen name="bottom_tab_padding_down">5.0dip</dimen>
+    <dimen name="bottom_tab_font_size">12.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!--此配置中的数据是为标准:1，其他尺寸根据比例在此基础上按比例增减-->
+
+    <!-- 主界面tab页通用数据 -->
+    <!-- 搜索栏 -->
+    <dimen name="tab_search_h">30dp</dimen>
+    <!-- 搜索tip图片边距 -->
+    <dimen name="tab_search_tip_margin">6dp</dimen>
+    
+    <!-- 侧边栏宽度 -->
+    <dimen name="sliding_menu_w">250dp</dimen>
+    
+    <!-- 通讯录TAB页相关数据 -->
+    <!-- 群组标签数据 -->
+    <dimen name="org_layout_margin">5dp</dimen>
+    <!-- 群组标签内布局边距 -->
+    <dimen name="org_layout_pad_left">15dp</dimen>
+    <!-- 群组标签图标宽高 -->
+    <dimen name="org_icon_w">50dp</dimen>
+    <dimen name="org_icon_h">50dp</dimen>
+    <!-- 群组标签内文字边距 -->
+    <dimen name="org_text_pad">8dp</dimen>
+    <!-- 群组标签内文字大小 -->
+    <dimen name="org_text_fontsize">16sp</dimen>
+    <!-- 通讯录刷新tip宽高 -->
+    <dimen name="tab_dialog_text_w">80dp</dimen>
+    <dimen name="tab_dialog_text_h">80dp</dimen>
+    <!-- 通讯录刷新tip字体大小 -->
+    <dimen name="tab_dialog_text_fontsize">44sp</dimen>
+    <!-- 通讯录刷新进度条宽高 -->
+    <dimen name="tab_progress_w">20dp</dimen>
+    <dimen name="tab_progress_h">20dp</dimen>
+    <!-- 通讯录刷新进度条文本 -->
+    <dimen name="tab_progress_fontsize">16sp</dimen>
+    <!-- 通讯录刷新进度条文本 左边距-->
+    <dimen name="tab_progress_mLeft">10dp</dimen>
+    
+    <!--用户个人信息界面 相关数据 -->
+    <!--头像宽度  -->
+    <dimen name="person_icon_w">80dp</dimen>
+    <!--头像宽度  -->
+    <dimen name="person_icon_h">80dp</dimen>
+    <!--用户名字体大小  -->
+    <dimen name="person_name_fontsize">22sp</dimen>
+    <!--用户名字体上边距宽度  -->
+    <dimen name="person_name_mtop">10dp</dimen>
+    <!--账号Label字体大小  -->
+    <dimen name="person_acount_fontsize">18sp</dimen>
+    <!--账号Label字体上边距  -->
+    <dimen name="person_acount_mtop">6dp</dimen>
+    <!--按钮高度 -->
+    <dimen name="person_btn_h">39dp</dimen>
+    <!--按钮下边距  -->
+    <dimen name="person_btn_mar_bot">10dp</dimen>
+    <!--按钮区域与用户信息区域间隔  -->  
+    <dimen name="person_btns_mtop">115dp</dimen>
+    <!--组信息界面按钮区域与用户信息区域间隔  -->  
+    <dimen name="org_btns_mtop">90dp</dimen>
+    
+    <!--按钮区内边距  -->
+    <dimen name="person_btns_padding">20dp</dimen>
+    <!--按钮显示字体大小 -->
+    <dimen name="person_btn_fontsize">20sp</dimen>
+    
+    <!-- 个人信息中心界面数据 -->
+    <!-- 设置按钮宽度 -->
+    <dimen name="tab_more_setting_w">25dp</dimen>
+    <!-- 设置按钮高度 -->
+    <dimen name="tab_more_setting_h">25dp</dimen>
+    <!-- 设置按钮右边距 -->
+    <dimen name="tab_more_setting_mRight">5dp</dimen>
+    <!-- 用户个人信息布局高度 -->
+    <dimen name="tab_more_userinfo_h">80dp</dimen>
+    <!-- 用户个人信息布局高度 -->
+    <dimen name="tab_more_userinfo_mTop">14dp</dimen>
+    <!-- 头像宽度 -->
+    <dimen name="tab_more_icon_w">60dp</dimen>
+    <!-- 头像高度-->
+    <dimen name="tab_more_icon_h">60dp</dimen>
+    <!-- 头像外边框-->
+    <dimen name="tab_more_icon_margin">10dp</dimen>
+    <!-- 头像下载进度图标宽度-->
+    <dimen name="tab_more_progressbar_w">30dp</dimen>
+    <!-- 头像下载进度图标高度-->
+    <dimen name="tab_more_progressbar_h">30dp</dimen>
+    <!-- 昵称字体大小-->
+    <dimen name="tab_more_name_fontsize">20sp</dimen>
+    <!-- 账号字体大小-->
+    <dimen name="tab_more_account_fontsize">18sp</dimen>
+    <!-- 详细信息布局高度-->
+    <dimen name="tab_more_detail_h">160dp</dimen>
+	<!-- 详细信息布局上边距-->
+    <dimen name="tab_more_detail_mTop">60dp</dimen>    
+
+</resources>

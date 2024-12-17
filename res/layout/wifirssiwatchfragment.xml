@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/styleHead"
+        style="@style/style_head"
+        android:background="@color/d168_tab_headercolor"
+        android:text="wifi meter" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <TextView
+            android:id="@+id/bssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/color_white"
+            android:visibility="gone"
+            android:text="11111111122222"
+            >
+
+        </TextView>
+        <com.wecomm.d168.component.ToneView
+            android:id="@+id/toneview"
+            android:layout_centerInParent="true"
+            android:layout_width="300dp"
+            android:layout_height="300dp">
+
+        </com.wecomm.d168.component.ToneView>
+    </RelativeLayout>
+</LinearLayout>

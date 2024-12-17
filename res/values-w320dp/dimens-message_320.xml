@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--此配置中的数据是为标准:1，其他尺寸根据比例在此基础上按比例增减-->
+   
+   	<!-- 短信列表界面 -->
+   	<!-- 节点内边距 -->
+	<dimen name="tab_msg_title_add_mRight">15dp</dimen>
+   	<!-- 短信列表节点 -->
+   	<!-- 节点内边距 -->
+	<dimen name="tab_msg_item_pad">5dp</dimen>
+	<!-- 节点icon布局宽高 -->
+	<dimen name="tab_msg_item_iconL_w">46dp</dimen>
+	<dimen name="tab_msg_item_iconL_h">46dp</dimen>
+	<dimen name="tab_msg_item_iconL_mbot">5dp</dimen>  
+	<!-- 节点icon宽高 -->
+	<dimen name="tab_msg_item_icon_w">46dp</dimen>
+	<dimen name="tab_msg_item_icon_h">46dp</dimen>  
+	<!-- 节点右侧内容边距-->
+	<dimen name="tab_msg_item_body_margin">4dp</dimen>
+	<dimen name="tab_msg_item_body_mLeft">4dp</dimen>
+	<dimen name="tab_msg_item_body_mBot">4dp</dimen>
+	<dimen name="tab_msg_item_body_mRight">4dp</dimen>
+	<!-- 节点右侧中心用户名字体大小-->
+	<dimen name="tab_msg_item_Cname_fontsize">20sp</dimen>
+	<!-- 节点右侧用户名边距-->
+	<dimen name="tab_msg_item_name_pBot">5dp</dimen>
+	<dimen name="tab_msg_item_name_pRight">10dp</dimen>
+	<!-- 节点右侧用户名字体大小-->
+	<dimen name="tab_msg_item_name_fontSize">16sp</dimen>
+	<!-- 节点右侧日期字体大小-->
+	<dimen name="tab_msg_item_date_fontSize">12sp</dimen>
+	<!-- 节点右侧未读短信计数宽高-->
+	<dimen name="tab_msg_item_unseen_w">16dp</dimen>
+	<dimen name="tab_msg_item_unseen_h">16dp</dimen>
+	<!-- 节点右侧未读短信计数字体大小-->
+	<dimen name="tab_msg_item_unseen_fontsize">12sp</dimen>
+	<!-- 节点右侧未读短信内容字体大小-->
+	<dimen name="tab_msg_item_msgbody_fontsize">13sp</dimen>
+	
+	<!-- 聊天室 -->
+	<!-- 顶部用户名称文字大小 -->
+	<dimen name="room_rname_fontsize">18sp</dimen>
+	<!-- 顶部用户名称文字外边距 -->
+	<dimen name="room_rname_margin">2dp</dimen>
+	<!-- 顶部头像宽高 -->
+	<dimen name="room_top_icon_w">36dp</dimen>
+	<dimen name="room_top_icon_h">36dp</dimen>
+	<!-- 顶部头像外边距 -->
+	<dimen name="room_top_icon_margin">4dp</dimen>
+	<!-- 消息列表底部内边距 -->
+	<dimen name="room_msglist_pBot">10dp</dimen>
+	<!-- 底部操作栏布局内边距 -->
+	<dimen name="room_opt_padding">5dp</dimen>
+	<!-- 底部操作栏录音切换按钮宽高 -->
+	<dimen name="room_recorder_btn1_w">42dp</dimen>
+	<dimen name="room_recorder_btn1_h">42dp</dimen>
+	<!-- 底部操作栏录音区域左右外边距 -->
+	<dimen name="room_recorderLay_mLeft">0dp</dimen>
+	<dimen name="room_recorderLay_mRight">5dp</dimen>
+	<!-- 底部操作栏录音按钮高度 -->
+	<dimen name="room_recorder_h">43dp</dimen>
+	<!-- 底部操作栏录音按钮外边距 -->
+	<dimen name="room_recorder_mLeft">8dp</dimen>
+	<dimen name="room_recorder_mRight">8dp</dimen>
+	<!-- 底部操作栏录音按钮显示文字大小 -->
+	<dimen name="room_recorder_fontsize">18sp</dimen>
+	<!-- 底部操作栏发送信息区域宽高 -->
+	<dimen name="room_msgedite_h">43dp</dimen>
+	<!-- 底部操作栏发送信息区域内边距大小 -->
+	<dimen name="room_msgedite_pTop">5dp</dimen>
+	<dimen name="room_msgedite_pBot">5dp</dimen>
+	<dimen name="room_msgedite_pLeft">0dp</dimen>
+	<dimen name="room_msgedite_pRight">35dp</dimen>
+	<!-- 底部操作栏发送信息区域文字大小 -->
+	<dimen name="room_msgedite_fontsize">16sp</dimen>
+	<!-- 底部操作栏发送信息区域文字计数字体大小 -->
+	<dimen name="room_msgedite_count_fontsize">10sp</dimen>
+	<!-- 底部操作栏发送信息区域文字计数内边距 -->
+	<dimen name="room_msgedite_count_padding">2dp</dimen>
+	<!-- 底部操作栏发送按钮内外边距 -->
+	<dimen name="room_msgsend_btn_mLeft">7dp</dimen>
+	<dimen name="room_msgsend_btn_mRight">5dp</dimen>
+	<dimen name="room_msgsend_btn_padding">10dp</dimen>
+	<!-- 底部操作栏发送按钮显示字体大小 -->
+	<dimen name="room_msgsend_btn_fontsize">16sp</dimen>
+	<!-- 底部操作栏更多按钮宽高 -->
+	<dimen name="room_add_btn_w">40dp</dimen>
+	<dimen name="room_add_btn_h">40dp</dimen>
+	<!-- 底部隐藏的操作栏内边距 -->
+	<dimen name="room_hidopt_pLeft">8dp</dimen>
+	<dimen name="room_hidopt_pRight">8dp</dimen>
+	<dimen name="room_hidopt_pBot">8dp</dimen>
+	<!-- 底部隐藏的操作栏第一行外边距 -->
+	<dimen name="room_hidopt_l1_mTop">20dp</dimen>
+	<!-- 底部隐藏的操作栏操作图标宽高 -->
+	<dimen name="room_hidopt_icon_w">48dp</dimen>
+	<dimen name="room_hidopt_icon_h">48dp</dimen>
+	<!-- 底部隐藏的操作栏操作图标底部文字大小 -->
+	<dimen name="room_hidopt_fontsize">13sp</dimen>
+	
+	<!-- 时间显示上边距和文字大小 -->
+	<dimen name="room_time_mTop">13dp</dimen>
+	<dimen name="room_time_fontSize">10sp</dimen>
+	<!-- 头像宽高 -->
+	<dimen name="room_icon_w">45dp</dimen>
+	<dimen name="room_icon_h">45dp</dimen>
+	<!-- 头像外边距 -->
+	<dimen name="room_icon_margin">3dp</dimen>
+	<!-- 发送状态外边距 -->
+	<dimen name="room_sendstatus_margin">3dp</dimen>
+	<!-- 发送状态右外边距 -->
+	<dimen name="room_sendstatus_mRight">10dp</dimen>
+	<!-- 发送状态字体大小 -->
+	<dimen name="room_sendstatus_fontsize">12sp</dimen>
+	
+	<!-- 文件按接收布局文件-->
+	<!-- 右侧body布局的外边距 -->
+	<dimen name="room_body_mTop">3dp</dimen>
+	<dimen name="room_body_mBot">3dp</dimen>
+	<!-- 接收文件icon宽高 -->
+	<dimen name="room_fileicon_w">70dp</dimen>
+	<dimen name="room_fileicon_h">70dp</dimen>
+	<!-- 接收文件名最大宽高 -->
+	<dimen name="room_filename_mW">500dp</dimen>
+	<dimen name="room_filename_mH">150dp</dimen>
+	<!-- 接收文件名字体大小-->
+	<dimen name="room_filename_fontSize">16sp</dimen>
+	<!-- 接收文件名左外边距-->
+	<dimen name="room_filename_mLeft">6dp</dimen>
+	<!-- 接收文件名tip外边距-->
+	<dimen name="room_filetip_mLeft">6dp</dimen>
+	<dimen name="room_filetip_mTop">2dp</dimen>
+	<!-- 接收文件名tip外边距-->
+	<dimen name="room_filetip_fontsize">12sp</dimen>
+	<!-- 接收文件名进度条外边距-->
+	<dimen name="room_fileprog_mLeft">6dp</dimen>
+	<dimen name="room_fileprog_mTop">2dp</dimen>
+	
+	<!-- 图片接收布局 -->
+	<!-- 图片宽高 -->
+	<dimen name="room_imgrecv_img_w">100dp</dimen>
+	<dimen name="room_imgrecv_img_h">150dp</dimen>
+	<!-- 进度条宽高 -->
+	<dimen name="room_imgrecv_prog_w">50dp</dimen>
+	<dimen name="room_imgrecv_prog_h">50dp</dimen>
+	<!-- 进度字体大小 -->
+	<dimen name="room_imgrecv_prog_fontsize">12sp</dimen>
+		
+	<!-- 语音接收布局 -->
+	<!-- 语音文件外边距 -->
+	<dimen name="room_audiorecv_mTop">5dp</dimen>
+	<dimen name="room_audiorecv_mBot">5dp</dimen>
+	<dimen name="room_audiorecv_mLeft">20dp</dimen>
+	<dimen name="room_audiorecv_mRight">10dp</dimen>
+	<!-- 进度条宽高 -->
+	<dimen name="room_audiorecv_prog_w">20dp</dimen>
+	<dimen name="room_audiorecv_prog_h">20dp</dimen>
+	<!-- 未读标记宽高 -->
+	<dimen name="room_audiorecv_unseen_w">8dp</dimen>
+	<dimen name="room_audiorecv_unseen_h">8dp</dimen>
+	<!-- 未读标记外边距 -->
+	<dimen name="room_audiorecv_unseen_mLeft">4dp</dimen>
+	
+	<!-- 视频接收 -->
+	<!-- 预览宽高 -->
+	<dimen name="room_videorecv_video_w">150dp</dimen>
+	<dimen name="room_videorecv_video_h">200dp</dimen>
+	<!-- 预览播放按钮宽高 -->
+	<dimen name="room_videorecv_playbtn_w">50dp</dimen>
+	<dimen name="room_videorecv_playbtn_h">50dp</dimen>
+	<!-- 进度条宽高 -->
+	<dimen name="room_videorecv_prog_roundWidth">4dp</dimen>
+	<!-- 进度条字体大小 -->
+	<dimen name="room_videorecv_prog_fontsize">12sp</dimen>
+	
+	<!-- 文字消息接收布局 -->
+	<!-- 布局文件外边距 -->
+	<dimen name="room_msgrecv_mTop">5dp</dimen>
+	<dimen name="room_msgrecv_mBot">5dp</dimen>
+	<dimen name="room_msgrecv_mLeft">20dp</dimen>
+	<dimen name="room_msgrecv_mRight">10dp</dimen>
+	<!-- 文字消息大小 -->
+	<dimen name="room_msgrecv_fontsize">16sp</dimen>
+	
+	<!-- 右侧头像布局外边距 -->
+	<dimen name="room_ricon_margin">3dp</dimen>
+	
+	<!-- 语音发送布局 -->
+	<!-- 语音内边距大小 -->
+	<dimen name="room_audiosend_pTop">8dp</dimen>
+	<dimen name="room_audiosend_pBot">8dp</dimen>
+	<dimen name="room_audiosend_pRight">20dp</dimen>
+	<dimen name="room_audiosend_pLeft">10dp</dimen>
+	
+</resources>

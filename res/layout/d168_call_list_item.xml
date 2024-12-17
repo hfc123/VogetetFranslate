@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/list_sel_green"
+    android:clickable="true"
+    android:focusable="true" >
+
+    <RelativeLayout
+        android:id="@+id/right_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@id/itemimage_layout" >
+
+        <ImageButton
+            android:id="@+id/itembutton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:adjustViewBounds="true"
+            android:background="@color/color_transparent"
+            android:focusable="true"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/video_btn"
+            android:layout_width="36dp"
+            android:layout_height="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/itembutton"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:background="@color/color_transparent"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/video_b"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_toStartOf="@id/itembutton"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="Jason"
+            android:textColor="@color/color_titleblack"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="fill_parent"
+            android:layout_height="24dp"
+            android:layout_below="@id/itemname"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_toStartOf="@id/itembutton"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="13520878806"
+            android:textColor="@color/color_titleblack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemtime"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Today 11:07 am"
+            android:textColor="@color/color_darktext"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/iteminterval"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/itemtime"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00:00:20"
+            android:textColor="@color/color_darktext"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/itembottomline"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:background="@color/color_text" />
+
+</RelativeLayout>

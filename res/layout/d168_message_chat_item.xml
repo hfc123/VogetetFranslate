@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_greybg"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/msg_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/room_time_mTop"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/color_text5"
+        android:textSize="@dimen/room_time_fontSize"
+        android:textStyle="bold" >
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msg_date" >
+
+        <com.wecomm.d168.fragment.CircleImageView
+            android:id="@+id/remote_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/n_image_icon3" />
+
+        <RelativeLayout
+            android:id="@+id/msg_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/room_body_mBot"
+            android:layout_marginTop="@dimen/room_body_mTop"
+            android:layout_toRightOf="@id/remote_icon"
+            android:background="@drawable/chat_bg1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/room_msgrecv_mBot"
+            android:paddingLeft="@dimen/room_msgrecv_mLeft"
+            android:paddingRight="@dimen/room_msgrecv_mRight"
+            android:paddingTop="@dimen/room_msgrecv_mTop" >
+
+            <TextView
+                android:id="@+id/msg_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_titleblack"
+                android:textSize="@dimen/room_msgrecv_fontsize" >
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

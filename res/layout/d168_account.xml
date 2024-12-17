@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wihtefff"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/style_head"
+        android:text="@string/btn_account" />
+            <View 
+                android:background="@color/d168_contact_sub_back"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/contact_item_top"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+             <LinearLayout style="@style/style_linear_layout" >
+                   <TextView
+                        style="@style/style_tv"
+                        android:text="@string/btn_account" />
+                   <TextView
+                        android:id="@+id/account_label"
+                        style="@style/style_et_guide" />
+                </LinearLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="9dp"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:text="@string/label_account_enable" />
+
+                <CheckBox
+                    android:id="@+id/account_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@null"
+                    android:button="@drawable/checkboxstatus"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/account_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout 
+                    android:layout_marginTop="9dp"
+                    style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_label" />
+
+                    <EditText
+                        android:id="@+id/user_label_name"
+                        style="@style/style_et"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                android:id="@+id/style_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/gray999"
+                android:layout_marginTop="13dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:text="@string/label_user_details" />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/style_title_bottom_line"
+                    android:layout_marginTop="3dp" />
+
+                <LinearLayout
+                     android:layout_marginTop="13dp"
+                     style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_domain" />
+
+                    <EditText
+                        android:id="@+id/domain"
+                        style="@style/style_et"
+                        android:layout_width="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout 
+                    android:layout_marginTop="9dp"
+                    style="@style/style_linear_layout" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_user_id" />
+
+                    <EditText
+                        android:id="@+id/usernum"
+                        style="@style/style_et" />
+                </LinearLayout>
+
+                <LinearLayout 
+                    android:layout_marginTop="9dp"
+                    style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_auth_id" />
+
+                    <EditText
+                        android:id="@+id/authID"
+                        style="@style/style_et" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_marginTop="9dp"
+                     style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_password" />
+
+                    <EditText
+                        android:id="@+id/passwd"
+                        style="@style/style_et"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout 
+                    android:layout_marginTop="9dp"
+                    style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_name" />
+
+                    <EditText
+                        android:id="@+id/display_name"
+                        style="@style/style_et" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="9dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_register" />
+
+                    <CheckBox
+                        android:id="@+id/registe_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@null"
+                        android:button="@drawable/checkboxstatus"
+                        android:layout_marginRight="13dp"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                android:id="@+id/style_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/gray999"
+                android:layout_marginTop="13dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:text="@string/label_domain_proxy" />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/style_title_bottom_line"
+                    android:layout_marginTop="3dp" />
+
+                <LinearLayout 
+                    android:layout_marginTop="13dp"
+                    style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/label_proxy1" />
+
+                    <EditText
+                        android:id="@+id/domain_proxy"
+                        style="@style/style_et" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="9dp"
+                     style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/label_proxy2" />
+
+                    <EditText
+                        android:id="@+id/domain_proxy2"
+                        style="@style/style_et" />
+                </LinearLayout>
+
+                <!--DND-->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                    <TextView
+                        android:id="@+id/style_title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/gray999"
+                        android:layout_marginTop="13dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="13dp"
+                        android:text="@string/label_dnd" />
+                </LinearLayout>
+
+                <View
+                    style="@style/style_title_bottom_line"
+                    android:layout_marginTop="3dp" />
+
+                <RelativeLayout
+                    android:layout_marginTop="9dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/label_account_enable" />
+
+                    <CheckBox
+                        android:id="@+id/dnd_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@null"
+                        android:button="@drawable/checkboxstatus"
+                        android:checked="false" />
+                </RelativeLayout>
+
+                <!--DTMF-->
+                <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                android:id="@+id/style_title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/gray999"
+                android:layout_marginTop="13dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:text="@string/d168_account_dtmf" />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/style_title_bottom_line"
+                    android:layout_marginTop="3dp" />
+
+                <RadioGroup
+                    android:id="@+id/dtmf_mode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        style="@style/style_rb"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/d168_account_rb1"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        style="@style/style_rb"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/d168_account_rb2"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        style="@style/style_rb"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/d168_account_rb3"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb4"
+                        style="@style/style_rb"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/d168_account_rb4"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb5"
+                        style="@style/style_rb"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/d168_account_rb5"
+                        android:visibility="gone" />
+                </RadioGroup>
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <TextView
+                android:id="@+id/style_title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/gray999"
+                android:layout_marginTop="13dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:text="@string/d168_account_session_timer" />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/style_title_bottom_line"
+                    android:layout_marginTop="3dp" />
+
+                <LinearLayout 
+                    android:layout_marginTop="13dp"
+                    style="@style/style_linear_layout" >
+
+                    <TextView
+                        android:id="@+id/textView"
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_preference" />
+
+                    <TextView
+                        android:id="@+id/session_timer"
+                        style="@style/style_et_guide" />
+                </LinearLayout>
+
+                <!-- <LinearLayout style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_use_update" />
+
+                    <TextView
+                        android:id="@+id/refresh_type"
+                        style="@style/style_et_guide" />
+                </LinearLayout> -->
+
+                <LinearLayout 
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="9dp"
+                    style="@style/style_linear_layout" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:text="@string/d168_account_session_time" />
+
+                    <EditText
+                        android:id="@+id/session_time"
+                        style="@style/style_et"
+                        android:layout_width="100dp"
+                        android:gravity="center_vertical"
+                        android:maxLength="3"
+                        android:padding="1dp" />
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:layout_width="80dp"
+                        android:gravity="center|left"
+                        android:text="@string/d168_account_seconds" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/press_apply" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/style_bottom_block"
+        android:weightSum="3" >
+
+        <TextView
+            android:id="@+id/left_btn"
+            style="@style/style_bottom_left"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_weight="1"
+            android:text="@string/bn_soft_left_detele" />
+
+        <TextView
+            android:id="@+id/input_type"
+            style="@style/style_bottom_middle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_weight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/right_btn"
+            style="@style/style_bottom_right"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/d168_bottom_h"
+            android:layout_weight="1"
+            android:text="@string/bn_soft_right_back" />
+    </LinearLayout>
+
+</LinearLayout>

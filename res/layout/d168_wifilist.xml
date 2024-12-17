@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_greybg" >
+
+    <TextView
+        android:id="@+id/contact_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d168_title_h"
+        android:background="@drawable/title_bg"
+        android:gravity="center"
+        android:text="@string/label_wifilist"
+        android:textColor="@color/d168_title_font_color"
+        android:textSize="@dimen/d168_title_font_size" />
+
+    <TextView 
+        android:id="@+id/bottom_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:background="@drawable/title_bg"
+        android:layout_alignParentBottom="true"/>
+    
+    <LinearLayout
+        android:id="@+id/tips"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_above="@id/bottom_bg"
+        android:background="@drawable/main_bg_3"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/lefttip"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:gravity="right"
+            android:text="@string/tip_click"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/tip_icon"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:src="@drawable/handfree" />
+
+        <TextView
+            android:id="@+id/righttip"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:gravity="left"
+            android:text="@string/tip_click_pound"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="70dp"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/btn_select"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/d168_bottom_font_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="@dimen/d168_bottom_h"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="@string/btn_back"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/d168_bottom_font_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/wifilist_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/d168_wifi_no_wifilist"
+        android:textColor="@color/color_black"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/wifilist_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tips"
+        android:layout_below="@id/contact_label"
+        android:background="@color/color_white"
+        android:listSelector="@color/bg_btnchoosed"
+        android:visibility="visible" >
+    </ListView>
+
+</RelativeLayout>

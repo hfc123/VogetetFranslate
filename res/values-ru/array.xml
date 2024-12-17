@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="callsessionTimerMode">
+        <item>Неактивный</item>
+		<item>Необязательный</item>
+		<item>Необходимый</item>
+		<item>Всегда</item>
+    </string-array>
+    <string-array name="callsessionRefreshMode">
+        <item>Не используется</item>
+		<item>Адаптивный</item>
+    </string-array>
+    <string-array name="accoutLabelList">
+        <item>SIP1</item>
+        <item>SIP2</item>
+    </string-array>
+    <string-array name="codec">
+        <item>PCMA</item>
+        <item>PCMU</item>
+        <item>G729</item>
+        <item>GSM</item>
+        <item>ILIBC</item>
+        <item>G722</item>
+        <item>OPUS</item>
+        <item>Speex-WB</item>
+    </string-array>
+    <string-array name="ip_mode">
+        <item>DHCP</item>
+		<item>статический</item>
+    </string-array>
+    <string-array name="brightness">
+        <item>Низкий</item>
+		<item>Средний</item>
+		<item>Высокий</item>
+    </string-array>
+
+    <integer-array name="brightness_level">
+        <item>20</item>
+        <item>100</item>
+        <item>220</item>
+    </integer-array>
+
+    <string-array name="wifi_frequency">
+        <item>2.4G&amp;5G</item>
+        <item>2.4G</item>
+        <item>5G</item>
+    </string-array>
+    <string-array name="timezone">
+        <item>Пасифик/Мидуэй</item>
+		<item>Тихоокеанский регион/Гонолулу</item>
+		<item>Америка/Анкоридж</item>
+		<item>Америка/Лос-Анджелес</item>
+		<item>Америка/Тихуана</item>
+		<item>Америка/Феникс</item>
+		<item>Америка/Чихуахуа</item>
+		<item>Америка/Денвер</item>
+		<item>Америка/Коста_Рика</item>
+		<item>Америка/Чикаго</item>
+		<item>Америка/Мехико_Город</item>
+		<item>Америка/Регина</item>
+		<item>Америка/Богота</item>
+		<item>Америка/Нью-Йорк</item>
+		<item>Америка/Каракас</item>
+		<item>Америка/Барбадос</item>
+		<item>Америка/Галифакс</item>
+		<item>Америка/Манаус</item>
+		<item>Америка/Сент-Джонс</item>
+		<item>Америка/Сантьяго</item>
+		<item>Америка/Аргентина/Буэнос_Айрес</item>
+		<item>Америка/Готхаб</item>
+		<item>Америка/Сан-Паулу</item>
+		<item>Америка/Монтевидео</item>
+		<item>Атлантика/Южная_Джорджия</item>
+		<item>Атлантика/Азорские острова</item>
+		<item>Атлантика/Кабо-Верде</item>
+		<item>Африка/Касабланка</item>
+		<item>Европа/Лондон</item>
+		<item>Европа/Амстердам</item>
+		<item>Европа/Белград</item>
+		<item>Европа/Брюссель</item>
+		<item>Европа/Сараево</item>
+		<item>Африка/Браззавиль</item>
+		<item>Африка/Виндхук</item>
+		<item>Европа/Афины</item>
+		<item>Азия/Бейрут</item>
+		<item>Африка/Каир</item>
+		<item>Европа/Хельсинки</item>
+		<item>Азия/Иерусалим</item>
+		<item>Африка/Хараре</item>
+		<item>Азия/Амман</item>
+		<item>Европа/Минск</item>
+		<item>Азия/Багдад</item>
+		<item>Азия/Кувейт</item>
+		<item>Африка/Найроби</item>
+		<item>Азия/Тегеран</item>
+		<item>Европа/Москва</item>
+		<item>Азия/Баку</item>
+		<item>Азия/Тбилиси</item>
+		<item>Азия/Ереван</item>
+		<item>Азия/Кабул</item>
+		<item>Азия/Карачи</item>
+		<item>Азия/Орал</item>
+		<item>Азия/Калькутта</item>
+		<item>Азия/Коломбо</item>
+		<item>Азия/Катманду</item>
+		<item>Азия/Екатеринбург</item>
+		<item>Азия/Алматы</item>
+		<item>Азия/Рангун</item>
+		<item>Азия/Бангкок</item>
+		<item>Азия/Джакарта</item>
+		<item>Азия/Красноярск</item>
+		<item>Азия/Шанхай</item>
+		<item>Азия/Гонконг</item>
+		<item>Азия/Куала-Лумпур</item>
+		<item>Австралия/Перт</item>
+		<item>Азия/Тайбэй</item>
+		<item>Азия/Иркутск</item>
+		<item>Азия/Сеул</item>
+		<item>Азия/Токио</item>
+		<item>Австралия/Дарвин</item>
+		<item>Азия/Якутск</item>
+		<item>Австралия/Брисбен</item>
+		<item>Тихий океан/Гуам</item>
+		<item>Австралия/Аделаида</item>
+		<item>Австралия/Хобарт</item>
+		<item>Австралия/Сидней</item>
+		<item>Азия/Владивосток</item>
+		<item>Тихий океан/Маджуро</item>
+		<item>Азия/Магадан</item>
+		<item>Тихоокеанский регион/Окленд</item>
+		<item>Тихий океан/Фиджи</item>
+		<item>Тихий океан/Тонгатапу</item>
+    </string-array>
+    <string-array name="timezoneaddress">
+        <item>-11 Остров Мидуэй</item>
+		<item>-10 Гавайи</item>
+		<item>-09 Аляска</item>
+		<item>-08 Тихоокеанское время</item>
+		<item>-08 Тихуана</item>
+		<item>-07 Аризона</item>
+		<item>-07 Чихуахуа</item>
+		<item>-07 Горное время</item>
+		<item>-06 Центральная Америка</item>
+		<item>-06 Центральное время</item>
+		<item>-06 Мексика(Мехико,Акапулько)</item>
+		<item>-06 Саскачеван</item>
+		<item>-05 Богота</item>
+		<item>-05 Восточное время</item>
+		<item>-04:30 Венесуэла</item>
+		<item>-04 Атлантическое время (Барбадос)</item>
+		<item>-04 Атлантическое время (Канада)</item>
+		<item>-04 Манаус</item>
+		<item>-03:30 Ньюфаундленд</item>
+		<item>-03 Сантьяго</item>
+		<item>-03 Буэнос-Айрес</item>
+		<item>-03 Гренландия</item>
+		<item>-02 Бразилиа</item>
+		<item>-02 Монтевидео</item>
+		<item>-02 Среднеатлантический</item>
+		<item>-01 Азорские острова</item>
+		<item>-01 Острова Зеленого Мыса</item>
+		<item>0 Касабланка</item>
+		<item>0 Лондон, Дублин</item>
+		<item>+1 Амстердам, Берлин</item>
+		<item>+1 Белград</item>
+		<item>+1 Брюссель</item>
+		<item>+1 Сараево</item>
+		<item>+1 Время Западной Африки</item>
+		<item>+2 Виндхук</item>
+		<item>+2 Афины,Стамбул</item>
+		<item>+2 Бейрут, Ливан</item>
+		<item>+2 Каир</item>
+		<item>+2 Хельсинки</item>
+		<item>+2 Иерусалим</item>
+		<item>+2 Хараре</item>
+		<item>+3 Амман, Иордания</item>
+		<item>+3 Минск</item>
+		<item>+3 Багдад</item>
+		<item>+3 Кувейт</item>
+		<item>+3 Найроби</item>
+		<item>+3:30 Тегеран</item>
+		<item>+4 Москва</item>
+		<item>+4 Баку</item>
+		<item>+4 Тбилиси</item>
+		<item>+4 Ереван</item>
+		<item>+4:30 Кабул</item>
+		<item>+5 Исламабад, Карачи</item>
+		<item>+5 Уральск</item>
+		<item>+5:30 Калькутта</item>
+		<item>+5:30 Шри-Ланка</item>
+		<item>+5:45 Катманду</item>
+		<item>+6 Екатеринбург</item>
+		<item>+6 Астана</item>
+		<item>+6:30 Янгон</item>
+		<item>+7 Бангкок</item>
+		<item>+7 Джакарта</item>
+		<item>+8 Красноярск</item>
+		<item>+8 Пекин</item>
+		<item>+8 Гонконг</item>
+		<item>+8 Куала-Лумпур</item>
+		<item>+8 Перт</item>
+		<item>+8 Тайбэй</item>
+		<item>+9 Иркутск</item>
+		<item>+9 Сеул</item>
+		<item>+9 Токио, Осака</item>
+		<item>+9:30 Австралия(Дарвин)</item>
+		<item>+10 Якутск</item>
+		<item>+10 Брисбен</item>
+		<item>+10 Гуам</item>
+		<item>+10:30 Аделаида</item>
+		<item>+11 Хобарт</item>
+		<item>+11 Сидней, Канберра</item>
+		<item>+11 Владивосток</item>
+		<item>+12 Маршалловы острова</item>
+		<item>+12 Магадан</item>
+		<item>+13 Окленд</item>
+		<item>+13 Фиджи</item>
+		<item>+13 Тонга</item>
+    </string-array>
+    <string-array name="backlight">
+        <item>15s</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>2 min</item>
+        <item>5 min</item>
+    </string-array>
+
+    <integer-array name="backlight_time">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+    </integer-array>
+
+    <string-array name="languageList">
+        <item>English</item>
+        <item>简体中文</item>
+        <item>Pусский</item>
+        <item>In Italiano</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Français</item>
+        <item>German</item>
+        <item>Netherlands</item>
+        <item>Turkish</item>
+        <item>Polish</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>НЕТ</item>
+		<item>WEP</item>
+		<item>WPA/WPA2 PSK</item>
+		<item>802.1х ЕАР</item>
+    </string-array>
+    <string-array name="eap_method">
+        <item>PEAP</item>
+		<item>TLS</item>
+		<item>TTLS</item>
+        <!--
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        -->
+    </string-array>
+    <string-array name="eap_phrase2">
+        <item>НЕТ</item>
+		<item>MSCHAPV2</item>
+		<item>GTC</item>
+    </string-array>
+    <string-array name="eap_phrase2_all">
+        <item>NONE</item>
+		<item>MSCHAPV2</item>
+		<item>GTC</item>
+		<item>PAP</item>
+		<item>MSCHAP</item>
+    </string-array>
+    <string-array name="wpai_psk_type">
+        <item>WPAI PSK ASCII</item>
+        <item>WPAI PSK hexadecimal</item>
+    </string-array>
+    <string-array name="date_format">
+        <item>1 янв, пн</item>
+		<item>янв 1, пн</item>
+		<item>пн, 1 янв.</item>
+		<item>пн, янв 1</item>
+		<item>ДД ММ ГГГГ</item>
+		<item>ММ ДД ГГГГ</item>
+		<item>ГГГГ ММ ДД</item>
+    </string-array>
+    <string-array name="date_separator">
+        <item>/</item>
+		<item>-</item>
+		<item>.</item>
+		<item>пробел</item>
+    </string-array>
+    <string-array name="log_mode">
+        <item>Откл</item>
+		<item>Обычный журнал</item>
+		<item>Системный журнал</item>
+    </string-array>
+    <string-array name="log_level">
+        <item>Ошибка</item>
+		<item>Предупр</item>
+		<item>Инфо</item>
+		<item>Отладка</item>
+		<item>Подробный</item>
+    </string-array>
+
+</resources>

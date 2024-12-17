@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:background="@color/color_greybg2" >
+
+    <TextView
+        android:id="@+id/title_label"
+        style="@style/style_head"
+        android:text="@string/label_contact_create" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/style_bottom_block"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/left_btn"
+            style="@style/style_bottom_left"
+            android:text="@string/bn_soft_left_detele" />
+
+        <TextView
+            android:id="@+id/right_btn"
+            style="@style/style_bottom_right"
+            android:text="@string/bn_soft_right_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mode_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_above="@id/bottom" >
+
+        <include layout="@layout/press_apply" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/mode_tips"
+        android:layout_below="@id/title_label"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/main_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingTop="5dp" >
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="106dp"
+                    android:layout_marginRight="6dp"
+                    android:text="@string/contact_name" />
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_greybg2"
+                    android:focusable="false"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/color_text1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="106dp"
+                    android:layout_marginRight="6dp"
+                    android:text="@string/contact_office" />
+
+                <TextView
+                    android:id="@+id/user_office"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_greybg2"
+                    android:focusable="false"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/color_text1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="106dp"
+                    android:layout_marginRight="6dp"
+                    android:text="@string/contact_mobile" />
+
+                <TextView
+                    android:id="@+id/user_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_greybg2"
+                    android:focusable="false"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/color_text1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="106dp"
+                    android:layout_marginRight="6dp"
+                    android:text="@string/contact_other" />
+
+                <TextView
+                    android:id="@+id/user_other"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_greybg2"
+                    android:focusable="false"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/color_text1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:text="@string/contact_account" />
+
+                <TextView
+                    android:id="@+id/user_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_greybg2"
+                    android:focusable="false"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:text="@string/d168_tip_default"
+                    android:textColor="@color/color_text1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="106dp"
+                    android:layout_marginRight="6dp"
+                    android:text="@string/contact_ring" />
+
+                <TextView
+                    android:id="@+id/user_ring"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_greybg2"
+                    android:focusable="false"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/color_text1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/style_linear_layout"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="106dp"
+                    android:layout_marginRight="6dp"
+                    android:text="@string/contact_group" />
+
+                <TextView
+                    android:id="@+id/user_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_greybg2"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:text="@string/d168_tip_default"
+                    android:textColor="@color/color_text1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

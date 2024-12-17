@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:background="@color/color_greybg"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/server_label"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="bottom|left"
+        android:text="@string/label_server_host"
+        android:textColor="@color/color_text_setting1"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/block21"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/server_label"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/color_white"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label21"
+            android:layout_width="@dimen/setting_label_w"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:gravity="left|center"
+            android:text="@string/label_group_addr"
+            android:textColor="@color/color_text_setting1"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/group_addr"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/label21"
+            android:gravity="left|center"
+            android:paddingLeft="8dp"
+            android:text=""
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/block22"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/block21"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/color_white"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label22"
+            android:layout_width="@dimen/setting_label_w"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:gravity="left|center"
+            android:text="@string/label_group_port"
+            android:textColor="@color/color_text_setting1"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/group_port"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/label22"
+            android:gravity="left|center"
+            android:paddingLeft="8dp"
+            android:text=""
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+        
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/other_setting_label"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/block22"
+        android:gravity="bottom|left"
+        android:text="@string/label_setting_other"
+        android:textColor="@color/color_text_setting1"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/block8"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/other_setting_label"
+        android:background="@color/color_white" >
+
+        <CheckBox
+            android:id="@+id/earlyIMS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/d168_setting_block_3gpp_ims"
+            android:textColor="@color/color_black" />
+    </RelativeLayout>
+    
+</RelativeLayout>

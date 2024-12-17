@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_greybg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/top_names"
+            style="@style/style_head"
+            android:text="@string/label_add_network" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/wifi_details"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/wifi_details_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/style_linear_layout" >
+
+                <TextView
+                    android:id="@+id/ssid_label"
+                    style="@style/style_tv"
+                    android:layout_width="105dp"
+                    android:text="@string/label_ssid" />
+
+                <EditText
+                    android:id="@+id/ssid_body"
+                    style="@style/style_et"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/secunity_block"
+                style="@style/style_linear_layout"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    style="@style/style_tv"
+                    android:layout_width="105dp"
+                    android:text="@string/d168_wifi_security" />
+
+                <TextView
+                    android:id="@+id/secunity_body"
+                    style="@style/style_et_guide"
+                    android:text="@string/label_upper_none" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wifi_pass_block"
+                style="@style/style_linear_layout"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/wifi_pass_label"
+                    style="@style/style_tv"
+                    android:layout_width="105dp"
+                    android:text="@string/d168_wifi_passwd" />
+
+                <EditText
+                    android:id="@+id/wifipasswd"
+                    style="@style/style_et"
+                    android:hint="@string/d168_wifi_pass_edit"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/eap_details_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/eap_identity_block"
+                    style="@style/style_linear_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:layout_width="105dp"
+                        android:text="@string/d168_label_eap_identity" />
+
+                    <EditText
+                        android:id="@+id/eap_identity_body"
+                        style="@style/style_et"
+                        android:maxLength="32" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eap_method_block"
+                    style="@style/style_linear_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:layout_width="105dp"
+                        android:text="@string/d168_label_eap_method" />
+
+                    <TextView
+                        android:id="@+id/eap_method_body"
+                        style="@style/style_et_guide"
+                        android:text="@string/label_upper_none" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eap_phase2_block"
+                    style="@style/style_linear_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/style_tv"
+                        android:layout_width="105dp"
+                        android:text="@string/d168_label_eap_phrase2" />
+
+                    <TextView
+                        android:id="@+id/eap_phase2_body"
+                        style="@style/style_et_guide"
+                        android:text="@string/label_upper_none" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eap_cacert_block"
+                    style="@style/style_linear_vert"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/style_tv_2"
+                        android:text="@string/d168_label_eap_ca_cert" />
+
+                    <TextView
+                        android:id="@+id/eap_cacert_body"
+                        style="@style/style_et_guide_2"
+                        android:text="@string/d168_wifi_cert_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eap_usercert_block"
+                    style="@style/style_linear_vert"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/style_tv_2"
+                        android:text="@string/d168_label_eap_user_cert" />
+
+                    <TextView
+                        android:id="@+id/eap_usercert_body"
+                        style="@style/style_et_guide_2"
+                        android:text="@string/d168_wifi_cert_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eap_anonymous_block"
+                    style="@style/style_linear_vert"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/style_tv_2"
+                        android:text="@string/d168_label_eap_anonymous" />
+
+                    <EditText
+                        android:id="@+id/eap_anonymous_body"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:maxLength="32" />
+                </LinearLayout>
+            </LinearLayout>
+>
+
+
+            <LinearLayout
+                android:id="@+id/ip_mode_block"
+                style="@style/style_linear_layout"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/ip_config_label"
+                    style="@style/style_tv"
+                    android:layout_width="105dp"
+                    android:text="@string/d168_wifi_ipsettings" />
+
+                <TextView
+                    android:id="@+id/ip_mode_body"
+                    style="@style/style_et_guide"
+                    android:text="@string/label_dhcp" />
+            </LinearLayout>
+
+            <include
+                layout="@layout/d168_wifi_staticmode"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/press_apply" />
+
+    <include layout="@layout/bottom_key_button" />
+
+</LinearLayout>

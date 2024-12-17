@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/contact_label"
+        style="@style/style_head"
+        android:text="@string/label_group_delete"/>
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        style="@style/style_bottom_block">
+        <TextView
+            android:id="@+id/select"
+            style="@style/style_bottom_left"
+            android:text="@string/btn_select" />
+
+        <TextView
+            android:id="@+id/tv_inputtype"
+            style="@style/style_bottom_middle"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/style_bottom_right"
+            android:text="@string/btn_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mode_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_above="@id/bottom" >
+
+        <include layout="@layout/press_apply" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/groups"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/mode_tips"
+        android:layout_below="@id/contact_label"
+        android:background="@color/color_white"
+        android:focusable="true" >
+    </ListView>
+
+</RelativeLayout>

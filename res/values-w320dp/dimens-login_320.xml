@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- 登录相关界面，此配置中的数据基数为:1 -->
+    
+    <!-- 登录配置按钮宽高边距 -->
+    <dimen name="conf_btn_w">35dp</dimen>
+    <dimen name="conf_btn_h">35dp</dimen>
+    <dimen name="conf_btn_mar">3dp</dimen>
+    <!-- 头像图片宽高边距 -->
+	<dimen name="login_icon_w">120dp</dimen>
+	<dimen name="login_icon_h">120dp</dimen>
+	<dimen name="login_icon_mTop">20dp</dimen>
+	<dimen name="login_icon_pad">2dp</dimen>
+	
+
+</resources>

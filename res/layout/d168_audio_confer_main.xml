@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg_3" >
+
+    <com.wecomm.d168.component.CircleImageView
+        android:id="@+id/conf_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/call_icon1" />
+
+    <RelativeLayout
+        android:id="@+id/conf_block"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/conf_icon"
+        android:layout_marginTop="20dp" >
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="1dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/color_dark_greybg" />
+
+        <TextView
+            android:id="@+id/line1_name"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/color_white"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/line1_num"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line1_name"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/line2_name"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/line2"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/color_white"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/line2_num"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line2_name"
+            android:layout_toRightOf="@id/line2"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/confer_period"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conf_block"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textColor="@color/color_white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:text="@string/d168_audio_option_split"
+        android:textColor="@color/color_white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center|right"
+        android:paddingRight="5dp"
+        android:text="@string/call_btn_168hangup"
+        android:textColor="@color/color_white"
+        android:textSize="24sp" />
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/static_ipmode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="@color/color_greybg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ip_block"
+        style="@style/style_linear_layout" >
+
+        <TextView
+            android:id="@+id/ip_label"
+            style="@style/style_tv"
+            android:layout_width="140dp"
+            android:text="@string/d168_label_ipaddress" />
+
+        <EditText
+            android:id="@+id/ip_content"
+            style="@style/style_et"
+            android:hint="@string/d168_wifi_ip_content"
+            android:text="@string/d168_wifi_ip_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gateway_block"
+        style="@style/style_linear_layout"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/gateway_label"
+            style="@style/style_tv"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/d168_label_gateway" />
+
+        <EditText
+            android:id="@+id/gateway_content"
+            style="@style/style_et"
+            android:layout_height="42dp"
+
+            android:hint="@string/d168_wifi_gateway_content"
+            android:text="@string/d168_wifi_gateway_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dns_block"
+        style="@style/style_linear_layout" >
+
+        <TextView
+            android:id="@+id/dns_label"
+            style="@style/style_tv"
+            android:layout_width="140dp"
+            android:text="@string/d168_label_dns" />
+
+        <EditText
+            android:id="@+id/dns_content"
+            style="@style/style_et"
+            android:hint="@string/d168_wifi_dns_content"
+            android:text="@string/d168_wifi_dns_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dns2_block"
+        style="@style/style_linear_layout"
+        android:layout_marginBottom="2dp" >
+
+        <TextView
+            android:id="@+id/dns2_label"
+            style="@style/style_tv"
+            android:layout_width="140dp"
+            android:text="@string/d168_label_dns2" />
+
+        <EditText
+            android:id="@+id/dns2_content"
+            style="@style/style_et"
+            android:hint="@string/d168_wifi_dns2_content"
+            android:text="@string/d168_wifi_dns2_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/prefix_bolck"
+        style="@style/style_linear_layout"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/prefix_label"
+            style="@style/style_tv"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/d168_label_prefix" />
+
+        <EditText
+            android:id="@+id/prefix_content"
+            style="@style/style_et"
+            android:layout_height="42dp"
+            android:hint="@string/d168_wifi_prefix_content"
+            android:text="@string/d168_wifi_prefix_content" />
+    </LinearLayout>
+
+</LinearLayout>

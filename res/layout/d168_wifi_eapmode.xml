@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eap_block"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="@color/color_greybg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/l_method"
+        style="@style/style_linear_layout"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            style="@style/style_tv"
+            android:layout_width="115dp"
+            android:gravity="center|left"
+            android:text="@string/d168_label_eap_method" />
+
+        <TextView
+            android:id="@+id/method"
+            style="@style/style_et_guide"
+            android:text="@string/label_dhcp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l_identity"
+        style="@style/style_linear_layout"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            style="@style/style_tv"
+            android:layout_width="115dp"
+            android:gravity="center|left"
+            android:text="@string/d168_label_eap_identity" />
+
+        <EditText
+            android:id="@+id/identity"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:maxLength="32" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l_phase2"
+        style="@style/style_linear_layout"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            style="@style/style_tv"
+            android:layout_width="115dp"
+            android:gravity="center|left"
+            android:text="@string/d168_label_eap_phrase2" />
+
+        <TextView
+            android:id="@+id/phrase2"
+            style="@style/style_et_guide"
+            android:text="@string/label_dhcp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l_ca_cert"
+        style="@style/style_linear_vert"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/style_tv_2"
+            android:text="@string/d168_label_eap_ca_cert" />
+
+        <TextView
+            android:id="@+id/ca_cert"
+            style="@style/style_et_guide_2"
+            android:text="@string/label_dhcp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l_user_cert"
+        style="@style/style_linear_vert"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/style_tv_2"
+            android:text="@string/d168_label_eap_user_cert" />
+
+        <TextView
+            android:id="@+id/user_cert"
+            style="@style/style_et_guide_2"
+            android:text="@string/label_dhcp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l_anonymous"
+        style="@style/style_linear_vert"
+        android:visibility="visible" >
+
+        <TextView
+            style="@style/style_tv_2"
+            android:text="@string/d168_label_eap_anonymous" />
+
+        <EditText
+            android:id="@+id/anonymous"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:maxLength="32" />
+    </LinearLayout>
+
+</LinearLayout>
